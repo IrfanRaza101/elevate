@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  /* Custom Color Palette */
+  --primary-color: #1E90FF;
+  --secondary-color: #1E90FF;
+  --dark-blue: #003459;
+  --light-blue: #38B6FF;
+  --dark-gray: #2D2D34;
+  --light-background: #EDF8FF;
+  
+  /* Updated RGB values for new color scheme */
+  --foreground-rgb: 45, 45, 52; /* #2D2D34 */
+  --background-start-rgb: 237, 248, 255; /* #EDF8FF */
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-glow: conic-gradient(
+    from 180deg at 50% 50%,
+    #1E90FF33 0deg,
+    #1E90FF33 55deg,
+    #38B6FF33 120deg,
+    #003459 33 160deg,
+    transparent 360deg
+  );
+  --secondary-glow: radial-gradient(
+    rgba(237, 248, 255, 1),
+    rgba(237, 248, 255, 0)
+  );
+
+  --tile-start-rgb: 237, 248, 255; /* #EDF8FF */
+  --tile-end-rgb: 255, 255, 255;
+  --tile-border: conic-gradient(
+    #00345980,
+    #00345940,
+    #00345930,
+    #00345920,
+    #00345910,
+    #00345910,
+    #00345980
+  );
+
+  --callout-rgb: 237, 248, 255; /* #EDF8FF */
+  --callout-border-rgb: 56, 182, 255; /* #38B6FF */
+  --card-rgb: 237, 248, 255; /* #EDF8FF */
+  --card-border-rgb: 30, 144, 255; /* #1E90FF */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 237, 248, 255; /* #EDF8FF */
+    --background-start-rgb: 0, 52, 89; /* #003459 */
+    --background-end-rgb: 45, 45, 52; /* #2D2D34 */
+
+    --primary-glow: radial-gradient(rgba(82, 113, 255, 0.4), rgba(82, 113, 255, 0));
+    --secondary-glow: linear-gradient(
+      to bottom right,
+      rgba(30, 144, 255, 0),
+      rgba(30, 144, 255, 0),
+      rgba(30, 144, 255, 0.3)
+    );
+
+    --tile-start-rgb: 0, 52, 89; /* #003459 */
+    --tile-end-rgb: 45, 45, 52; /* #2D2D34 */
+    --tile-border: conic-gradient(
+      #1E90FF80,
+      #1E90FF40,
+      #1E90FF30,
+      #1E90FF20,
+      #1E90FF10,
+      #1E90FF10,
+      #1E90FF80
+    );
+
+    --callout-rgb: 0, 52, 89; /* #003459 */
+    --callout-border-rgb: 56, 182, 255; /* #38B6FF */
+    --card-rgb: 45, 45, 52; /* #2D2D34 */
+    --card-border-rgb: 30, 144, 255; /* #1E90FF */
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* Ensure Poppins font is applied to all text elements */
+h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea, select, label {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Custom Color Utility Classes */
+.bg-primary { background-color: var(--primary-color) !important; }
+.bg-secondary { background-color: var(--secondary-color) !important; }
+.bg-dark-blue { background-color: var(--dark-blue) !important; }
+.bg-light-blue { background-color: var(--light-blue) !important; }
+.bg-dark-gray { background-color: var(--dark-gray) !important; }
+.bg-light-background { background-color: var(--light-background) !important; }
+
+.text-primary { color: var(--primary-color) !important; }
+.text-secondary { color: var(--secondary-color) !important; }
+.text-dark-blue { color: var(--dark-blue) !important; }
+.text-light-blue { color: var(--light-blue) !important; }
+.text-dark-gray { color: var(--dark-gray) !important; }
+.text-light { color: var(--light-background) !important; }
+
+.border-primary { border-color: var(--primary-color) !important; }
+.border-secondary { border-color: var(--secondary-color) !important; }
+.border-light-blue { border-color: var(--light-blue) !important; }
+
+/* Apply color scheme to common elements */
+.btn-primary, button[class*="primary"] {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.btn-secondary, button[class*="secondary"] {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+  color: white !important;
+}
+
+/* Links and interactive elements */
+a:hover, .link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Cards and containers */
+.card, .container, .section {
+  background-color: var(--light-background);
+  border-color: var(--light-blue);
+}
+
+/* Headers and navigation */
+.navbar, .header, nav {
+  background-color: var(--light-background) !important;
+}
+
+/* Text colors for better contrast */
+.text-muted {
+  color: var(--dark-gray) !important;
+}
+
+/* Gradients using new colors */
+.gradient-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+}
+
+.gradient-light {
+  background: linear-gradient(135deg, var(--light-background), #ffffff) !important;
+}
+
+/* Floating Buttons CSS */
+.floating-buttons {
+  position: fixed !important;
+  bottom: 30px !important;
+  right: 30px !important;
+  z-index: 99999 !important;
+  display: none !important; /* Initially hidden */
+  flex-direction: column !important;
+  gap: 15px !important;
+  pointer-events: auto !important;
+}
+
+.floating-buttons.show {
+  display: flex !important;
+}
+
+/* Common button styles with higher specificity */
+.whatsapp-btn{
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: transform 0.3s ease !important;
+  border: 2px solid white !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Hover effects - only zoom in */
+.whatsapp-btn:hover {
+  transform: scale(1.1) !important;
+}
+
+/* WhatsApp Button Specific Styles */
+.whatsapp-btn {
+  background: #007bff !important;
+}
+
+/* Back to Top Button Specific Styles */
+.floating-buttons .backtotop-btn {
+  background: #007bff !important;
+}
+
+/* Button hover effects for FAQ section */
+.btn-hover:hover {
+  background-color: #0066CC !important;
+  border-color: #0066CC !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 8px rgba(30, 144, 255, 0.2) !important;
+}
