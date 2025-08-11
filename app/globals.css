@@ -9,11 +9,17 @@
 
   /* Custom Color Palette */
   --primary-color: #1E90FF;
-  --secondary-color: #1E90FF;
+  --secondary-color: #0066CC;
   --dark-blue: #003459;
   --light-blue: #38B6FF;
   --dark-gray: #2D2D34;
   --light-background: #EDF8FF;
+  
+  /* Theme Color Variables for Components */
+  --tc-theme-primary: #1E90FF;
+  --tc-theme-primary-light: #38B6FF;
+  --tc-theme-primary-soft: #EDF8FF;
+  --tc-theme-primary-dark: #0066CC;
   
   /* Updated RGB values for new color scheme */
   --foreground-rgb: 45, 45, 52; /* #2D2D34 */
@@ -202,35 +208,80 @@ a:hover, .link:hover {
   display: flex !important;
 }
 
-/* Common button styles with higher specificity */
-.whatsapp-btn{
-  width: 60px !important;
-  height: 60px !important;
-  border-radius: 50% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  cursor: pointer !important;
-  transition: transform 0.3s ease !important;
-  border: 2px solid white !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
-  position: relative !important;
-  overflow: hidden !important;
-}
-
-/* Hover effects - only zoom in */
-.whatsapp-btn:hover {
-  transform: scale(1.1) !important;
-}
-
 /* WhatsApp Button Specific Styles */
 .whatsapp-btn {
-  background: #007bff !important;
+  background-color: #25D366 !important;
+  border: none !important;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3) !important;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128C7E !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4) !important;
+}
+
+.whatsapp-btn svg {
+  width: 28px !important;
+  height: 28px !important;
+  fill: white !important;
+  display: block !important;
 }
 
 /* Back to Top Button Specific Styles */
-.floating-buttons .backtotop-btn {
-  background: #007bff !important;
+.backtotop-btn {
+  background-color: #007bff !important;
+  border: none !important;
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.3) !important;
+}
+
+.backtotop-btn:hover {
+  background-color: #0056b3 !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 6px 25px rgba(0, 123, 255, 0.4) !important;
+}
+
+.backtotop-btn svg {
+  width: 24px !important;
+  height: 24px !important;
+  stroke: white !important;
+  display: block !important;
+}
+
+/* Swiper Navigation Button Fixes */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: var(--primary-color) !important;
+  border: none !important;
+  color: white !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: var(--secondary-color) !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3) !important;
+}
+
+/* General Button Improvements */
+.btn {
+  transition: all 0.3s ease !important;
+  border: none !important;
+}
+
+.btn:hover {
+  transform: translateY(-2px) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
 }
 
 /* Button hover effects for FAQ section */
@@ -239,4 +290,30 @@ a:hover, .link:hover {
   border-color: #0066CC !important;
   transform: translateY(-2px) !important;
   box-shadow: 0 4px 8px rgba(30, 144, 255, 0.2) !important;
+}
+
+/* Mobile Menu Styling */
+.mobile-menu .nav-link {
+  color: var(--dark-gray) !important;
+  transition: all 0.3s ease !important;
+  padding: 12px 0 !important;
+  border-bottom: 1px solid rgba(30, 144, 255, 0.1) !important;
+}
+
+.mobile-menu .nav-link:hover {
+  color: var(--primary-color) !important;
+  transform: translateX(5px) !important;
+}
+
+.mobile-menu .nav-link:active {
+  color: var(--secondary-color) !important;
+}
+
+/* Mobile Header Styling */
+.mobile-header-active {
+  background-color: var(--light-background) !important;
+}
+
+.mobile-header-info-wrap .stroke-dark {
+  stroke: var(--primary-color) !important;
 }

@@ -15,7 +15,7 @@ export default function Team2() {
 								</div>
 								<h3 className="ds-3 my-3">Our Design Team</h3>
 								<p className="fs-5 mb-0">
-									Meet the talented PowerPoint designers and presentation specialists <br />
+									Meet the talented presentation designers and visual specialists <br />
 									who create stunning visual stories every day.
 								</p>
 								<div className="d-flex align-items-center mt-8">
@@ -80,7 +80,7 @@ export default function Team2() {
 								<Link href="#" className="card-team rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-3 hover-up">
 									<h6>Sarah Johnson</h6>
 									<div className="d-flex">
-										<span className="fs-6 text-600 me-auto">Lead PowerPoint Designer</span>
+										<span className="fs-6 text-600 me-auto">Lead Presentation Designer</span>
 										<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#1E90FF">
 											<path className="fill-primary" d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#1E90FF" />
 										</svg>

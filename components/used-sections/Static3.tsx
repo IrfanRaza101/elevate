@@ -10,7 +10,7 @@ export default function Static3() {
 						<div className="row align-items-center justify-content-between">
 							<div className="col-lg-auto col-md-12 text-center text-lg-start mb-5 mb-lg-0">
 								<h4 className="mb-0">
-									See why we are <br /> the PowerPoint experts
+									See why we are <br /> the presentation design experts
 								</h4>
 							</div>
 							<div className="col-lg-auto col-md-6">

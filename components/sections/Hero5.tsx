@@ -362,12 +362,12 @@ export default function Hero5() {
 							</div>
 						</SwiperSlide>
 					</div>
-					<div className="swiper-button-prev d-none d-lg-flex shadow-2 position-absolute top-50 translate-middle-y bg-white ms-lg-7">
-						<i className="bi bi-arrow-left" />
-					</div>
-					<div className="swiper-button-next d-none d-lg-flex shadow-2 position-absolute top-50 translate-middle-y bg-white me-lg-7">
-						<i className="bi bi-arrow-right" />
-					</div>
+					<button className="swiper-button-prev btn btn-primary rounded-circle d-none d-lg-flex shadow-2 position-absolute top-50 translate-middle-y ms-lg-7" style={{width: '50px', height: '50px', border: 'none'}}>
+						<i className="bi bi-arrow-left fs-5" />
+					</button>
+					<button className="swiper-button-next btn btn-primary rounded-circle d-none d-lg-flex shadow-2 position-absolute top-50 translate-middle-y me-lg-7" style={{width: '50px', height: '50px', border: 'none'}}>
+						<i className="bi bi-arrow-right fs-5" />
+					</button>
 					<div className="swiper-pagination mb-8" />
 				</Swiper>
 			</div>

@@ -11,6 +11,9 @@ export default function Menu() {
 						<Link className="nav-link fw-bold d-flex align-items-center" href="/">Home</Link>	
 					</li>
 					<li className="nav-item">
+						<Link className="nav-link fw-bold d-flex align-items-center" href="/about">About</Link>
+					</li>
+					<li className="nav-item">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="#services" onClick={(e) => {
 							e.preventDefault();
 							document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });

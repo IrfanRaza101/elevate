@@ -12,7 +12,7 @@ export default function HowItWork2() {
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">design process</span>
 						</div>
 						<h3 className="ds-3 my-3 fw-black">How We Create Your Presentation</h3>
-						<p className="fs-5 mb-0">Our streamlined process for delivering stunning PowerPoint presentations.</p>
+						<p className="fs-5 mb-0">Our streamlined process for delivering stunning presentation designs.</p>
 					</div>
 				</div>
 				<div className="position-absolute top-0 start-50 translate-middle-x z-0">

@@ -12,7 +12,7 @@ export default function Blog5() {
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Design Insights</span>
 							</div>
-							<h3 className="ds-3 mt-3 mb-3">PowerPoint Design Tips</h3>
+							<h3 className="ds-3 mt-3 mb-3">Presentation Design Tips</h3>
 							<span className="fs-5 fw-medium text-900">Expert insights and best practices for creating stunning presentations</span>
 						</div>
 						<div className="col-lg-auto">
@@ -33,7 +33,7 @@ export default function Blog5() {
 									<Link href="/blog/1" className="z-1 position-relative bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1 mb-2">
 										<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">design tips</span>
 									</Link>
-									<h6 className="mb-3">10 Essential PowerPoint Design Principles for Professional Presentations</h6>
+									<h6 className="mb-3">10 Essential Presentation Design Principles for Professional Presentations</h6>
 									<p>Master the art of presentation design with these fundamental principles that will transform your slides from ordinary to extraordinary...</p>
 									<div className="d-flex align-items-center justify-content-between mt-5 pt-5 border-top">
 										<div className="d-flex align-items-center position-relative z-1">

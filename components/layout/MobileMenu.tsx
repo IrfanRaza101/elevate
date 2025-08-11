@@ -33,7 +33,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu, handleSearc
 								<span className="text-sm" style={{
 									fontSize: '0.9rem',
 									lineHeight: '1.1'
-								}}>presentations</span>
+								}}>designs</span>
 							</span>
 						</Link>
 						<div className={`burger-icon burger-icon-white border rounded-3 ${isMobileMenu ? 'burger-close' : ''}`} onClick={handleMobileMenu}>
@@ -47,6 +47,16 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu, handleSearc
 							<div className="mobile-menu-wrap mobile-header-border">
 								<nav>
 									<ul className="mobile-menu font-heading ps-0">
+										<li className="nav-item">
+											<Link className="nav-link fw-bold d-flex align-items-center" href="/" onClick={() => {
+												handleMobileMenu();
+											}}>Home</Link>
+										</li>
+										<li className="nav-item">
+											<Link className="nav-link fw-bold d-flex align-items-center" href="/about" onClick={() => {
+												handleMobileMenu();
+											}}>About</Link>
+										</li>
 										<li className="nav-item">
 											<Link className="nav-link fw-bold d-flex align-items-center" href="#services" onClick={(e) => {
 												e.preventDefault();

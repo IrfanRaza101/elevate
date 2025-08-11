@@ -55,12 +55,12 @@ export default function Project1() {
 						</div>
 						<div className="col-lg-2 col-md-3 col-12 ms-auto align-self-end mb-lg-7 mt-lg-0 mt-4">
 							<div className="position-relative z-0 d-flex justify-content-center justify-content-lg-end">
-								<div className="swiper-button-prev shadow btn-gradient me-2" style={{color: 'white'}}>
-									<i className="bi bi-arrow-left" />
-								</div>
-								<div className="swiper-button-next shadow btn-gradient" style={{color: 'white'}}>
-									<i className="bi bi-arrow-right" />
-								</div>
+								<button className="swiper-button-prev btn btn-primary rounded-circle shadow me-2 d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px', border: 'none'}}>
+									<i className="bi bi-arrow-left text-white fs-5" />
+								</button>
+								<button className="swiper-button-next btn btn-primary rounded-circle shadow d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px', border: 'none'}}>
+									<i className="bi bi-arrow-right text-white fs-5" />
+								</button>
 							</div>
 						</div>
 					</div>

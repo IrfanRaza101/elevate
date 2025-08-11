@@ -57,12 +57,12 @@ export default function Features7() {
 						</div>
 						<div className="col-lg-2 col-md-3 col-5 ms-auto align-self-end mb-lg-7">
 							<div className="position-relative z-0">
-								<div className="swiper-button-prev bg-white ms-lg-7">
-									<i className="bi bi-arrow-left" />
-								</div>
-								<div className="swiper-button-next bg-white">
-									<i className="bi bi-arrow-right" />
-								</div>
+								<button className="swiper-button-prev btn btn-primary rounded-circle ms-lg-7" style={{width: '50px', height: '50px', border: 'none'}}>
+									<i className="bi bi-arrow-left fs-5" />
+								</button>
+								<button className="swiper-button-next btn btn-primary rounded-circle" style={{width: '50px', height: '50px', border: 'none'}}>
+									<i className="bi bi-arrow-right fs-5" />
+								</button>
 							</div>
 						</div>
 					</div>

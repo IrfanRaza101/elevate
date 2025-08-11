@@ -11,7 +11,7 @@ export default function Footer1() {
 								<div className="col-lg-4 pe-10" data-aos="fade-zoom-in" data-aos-delay={100}>
 									<Link href="/" className="d-flex align-items-center mb-3">
 										<img src="/assets/imgs/template/Elevate.png" alt="Elevate" style={{width: "auto", height: "40px", objectFit: "contain", marginRight: "10px"}} />
-										<span className="text-white fw-bold fs-5">Elevate presentations</span>
+										<span className="text-white fw-bold fs-5">Elevate Presentation Designs</span>
 									</Link>
 									<p className="text-white fw-medium mt-3 mb-6 opacity-50">Elevate your presentations with our professional design services. We create stunning, impactful presentations that captivate your audience and deliver your message effectively.</p>
 									<div className="d-flex social-icons">
@@ -36,7 +36,7 @@ export default function Footer1() {
 										<div className="col-lg-3 col-md-4 col-6" data-aos="fade-zoom-in" data-aos-delay={200}>
 											<h3 className="text-white opacity-50 fs-6 fw-black text-uppercase pb-3 pt-5">Services</h3>
 											<div className="d-flex flex-column align-items-start">
-												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#services">Presentation Design</Link>
+												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#services">Design Services</Link>
 												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#services">Custom Templates</Link>
 												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#services">Animation Effects</Link>
 												<Link className="hover-effect text-white mb-2 fw-medium fs-6" href="#services">Brand Integration</Link>

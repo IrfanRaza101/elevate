@@ -15,7 +15,7 @@ export default function Features5() {
 								</div>
 							</div>
 							<div className="col-lg-6 offset-lg-1 mt-lg-0 mt-5">
-								<h4 className="ds-4 fw-regular">Everything you need <br /> for <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={200}>stunning PowerPoint <br className="d-none d-lg-inline" /> presentations.</span></h4>
+								<h4 className="ds-4 fw-regular">Everything you need <br /> for <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={200}>stunning presentation <br className="d-none d-lg-inline" /> designs.</span></h4>
 								<p className="fs-5">Professional design tools, templates, and expertise to create presentations that captivate and convert your audience.</p>
 								<Link href="#projects" className="btn btn-gradient hover-up mt-5" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={200}>
 									View Portfolio
@@ -60,7 +60,7 @@ export default function Features5() {
 						</div>
 						<div className="row d-flex justify-content-center pt-lg-150 pt-8">
 							<div className="col-lg-6">
-								<p className="fs-5">Our presentations work flawlessly on all PowerPoint platforms.</p>
+								<p className="fs-5">Our presentation designs work flawlessly on all platforms and formats.</p>
 								<div className="d-flex justify-content-center mt-5">
 									<img className="me-3" src="/assets/imgs/features-5/icon-1.png" alt="infinia" />
 									<img className="me-3" src="/assets/imgs/features-5/icon-2.png" alt="infinia" />

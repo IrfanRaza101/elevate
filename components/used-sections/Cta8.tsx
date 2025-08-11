@@ -14,7 +14,7 @@ export default function Cta8() {
 									<span className="tag-spacing fs-7 fw-bold ms-2 text-uppercase" style={{color: '#1E90FF'}}>Our Process</span>
 								</div>
 								<h5 className="ds-5 mt-2">Creating presentations that make an impact.</h5>
-								<p>We work closely with our clients to understand their message and audience, crafting custom PowerPoint presentations that engage, inform, and inspire action.</p>
+								<p>We work closely with our clients to understand their message and audience, crafting custom presentation designs that engage, inform, and inspire action.</p>
 <button className="btn btn-gradient text-white mt-4" style={{backgroundColor: '#1E90FF', borderColor: '#1E90FF'}}>Get Started Now</button>
 								<div className="d-flex pt-3 align-items-center">
 									<div className="icon-flip position-relative icon-shape icon-xxl rounded-3 bg-1">

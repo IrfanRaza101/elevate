@@ -35,7 +35,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
             fontSize: scroll ? '0.9rem' : '1rem',
             lineHeight: '1.1',
             transition: 'all 0.3s ease'
-        }}>presentations</span>
+        }}>designs</span>
     </span>
 						</Link>
 						<Menu/>

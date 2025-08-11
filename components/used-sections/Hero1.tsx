@@ -17,8 +17,8 @@ export default function Hero1() {
 										<path d="M14.25 9.5H3.5625" stroke="#1E90FF" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
 								</Link>
-								<h3 className="ds-3 mt-4 mb-5" data-aos="fade-zoom-in" data-aos-delay={0}>Create Stunning PowerPoint Presentations That Captivate</h3>
-								<p className="pe-10 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Transform your ideas into compelling visual stories with our premium PowerPoint design services and professional templates.</p>
+								<h3 className="ds-3 mt-4 mb-5" data-aos="fade-zoom-in" data-aos-delay={0}>Create Stunning Presentation Designs That Captivate</h3>
+				<p className="pe-10 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Transform your ideas into compelling visual stories with our premium presentation design services and professional templates.</p>
 
 								<div className="d-flex justify-content-center justify-content-lg-start">
 									<Link href="#contact" className="btn btn-gradient hover-up" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={500}>

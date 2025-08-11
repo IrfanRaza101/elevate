@@ -11,8 +11,8 @@ export default function Services1() {
 									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 									<span className="tag-spacing fs-7 fw-bold ms-2 text-uppercase" style={{color: '#1E90FF'}}>Our Services</span>
 								</div>
-						<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={300}>PowerPoint Design Services</h3>
-						<p data-aos="fade-zoom-in" data-aos-delay={100}>From corporate presentations to creative pitches, we deliver <br /> professional PowerPoint designs that make an impact.</p>
+						<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={300}>Presentation Design Services</h3>
+						<p data-aos="fade-zoom-in" data-aos-delay={100}>From corporate presentations to creative pitches, we deliver <br /> professional presentation designs that make an impact.</p>
 					</div>
 					<div className="row mt-6 position-relative">
 						<div className="col-lg-4">
@@ -27,7 +27,7 @@ export default function Services1() {
 								<div className="card-service bg-white p-6 border rounded-3 h-100 d-flex flex-column">
 									<img src="/assets/imgs/service-1/icon-2.svg" alt="infinia" style={{width: '48px', height: '48px'}} />
 									<h6 className="my-3">Template Creation</h6>
-									<p className="mb-0 flex-grow-1">Professional PowerPoint templates designed for consistency across your organization with branded elements and layouts</p>
+									<p className="mb-0 flex-grow-1">Professional presentation templates designed for consistency across your organization with branded elements and layouts</p>
 								</div>
 							</div>
 						</div>

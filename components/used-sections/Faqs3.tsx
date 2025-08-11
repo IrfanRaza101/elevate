@@ -26,7 +26,7 @@ export default function Faqs3() {
                   </span>
                 </div>
                 <h3 className="ds-3 my-3 fw-bold">
-                  PowerPoint questions? <br />
+                  Presentation design questions? <br />
                   We've got answers
                 </h3>
                 <div className="position-relative d-inline-block mt-3 mb-6">
@@ -42,7 +42,7 @@ export default function Faqs3() {
                   />
                 </div>
                 <p className="fs-5 mb-0">
-                  Quick answers to PowerPoint design questions. Can't <br />
+                  Quick answers to presentation design questions. Can't <br />
                   find what you're looking for? Get in touch with us.
                 </p>
                 <div className="d-flex flex-column flex-sm-row align-items-center align-items-sm-center mt-5 gap-3">
@@ -98,7 +98,7 @@ export default function Faqs3() {
                       <h6 className="m-0">
                         What are the key benefits of using{" "}
                         <span style={{ color: "#1E90FF" }}>
-                          PowerPoint Design Services
+                          Presentation Design Services
                         </span>
                       </h6>
                       <span className="ms-auto arrow me-2">
@@ -131,7 +131,7 @@ export default function Faqs3() {
                     data-bs-parent=".accordion"
                   >
                     <p className="ps-0card-body">
-                      Professional PowerPoint design services save you time,
+                      Professional presentation design services save you time,
                       ensure brand consistency, improve audience engagement, and
                       deliver presentations that make a lasting impact on your
                       viewers.
@@ -148,7 +148,7 @@ export default function Faqs3() {
                       <h6 className="m-0">
                         How long does it take to create a{" "}
                         <span style={{ color: "#1E90FF" }}>
-                          PowerPoint presentation
+                          presentation design
                         </span>
                         ?
                       </h6>

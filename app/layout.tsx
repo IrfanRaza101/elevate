@@ -14,8 +14,8 @@ import "@/node_modules/react-modal-video/css/modal-video.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Elevate Presentations - Professional Presentation Solutions",
-    description: "Transforming Your Ideas into Successful Presentations and Pitch Decks.",
+    title: "Elevate Presentation Designs - Professional Design Solutions",
+  description: "Transforming Your Ideas into Successful Presentation Designs and Visual Stories.",
     icons: {
         icon: "/assets/imgs/template/Elevate.png",
         shortcut: "/assets/imgs/template/Elevate.png",

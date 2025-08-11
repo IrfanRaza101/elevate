@@ -15,7 +15,7 @@ export default function Testimonial1() {
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Testimonials</span>
 								</div>
 								<h3 className="ds-3 mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={100}>What our clients say</h3>
-								<span className="fs-5 fw-medium" data-aos="fade-zoom-in" data-aos-delay={300}>Discover how our PowerPoint design services have helped businesses create compelling presentations that drive results and engage audiences.</span>
+								<span className="fs-5 fw-medium" data-aos="fade-zoom-in" data-aos-delay={300}>Discover how our presentation design services have helped businesses create compelling presentations that drive results and engage audiences.</span>
 								<div className="d-flex flex-wrap align-items-center mb-8 mt-8">
 									<Link href="#contact" className="btn btn-outline-secondary hover-up" data-aos="fade-zoom-in" data-aos-delay={100}>
 										<svg className="me-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
@@ -28,7 +28,7 @@ export default function Testimonial1() {
 						</div>
 						<div className="col-lg-4">
 							<div className="card-testimonial-1 bg-neutral-100 p-5 rounded-3 position-relative mt-5 mb-4" data-aos="fade-zoom-in" data-aos-delay={100}>
-								<p className="text-900 border-bottom border-600 pb-4 mb-4">"The PowerPoint presentation they created for our product launch was absolutely stunning. It helped us secure $2M in funding!"</p>
+								<p className="text-900 border-bottom border-600 pb-4 mb-4">"The presentation design they created for our product launch was absolutely stunning. It helped us secure $2M in funding!"</p>
 								<div className="d-flex align-items-center justify-content-between">
 									<div className="d-flex align-items-center">
 										<img className="avatar-md" src="/assets/imgs/testimonial-1/avatar-1.png" alt="infinia" />
