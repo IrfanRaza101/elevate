@@ -27,15 +27,15 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
         transition: 'all 0.3s ease'
     }}>
         <span style={{
-            fontSize: scroll ? '1.1rem' : '1.25rem',
+            fontSize: scroll ? '1rem' : '1rem',
             lineHeight: '1.1',
             transition: 'all 0.3s ease'
         }}>Elevate</span>
         <span className="text-sm" style={{
-            fontSize: scroll ? '0.9rem' : '1rem',
+            fontSize: scroll ? '1rem' : '1rem',
             lineHeight: '1.1',
             transition: 'all 0.3s ease'
-        }}>designs</span>
+        }}>Presentations</span>
     </span>
 						</Link>
 						<Menu/>

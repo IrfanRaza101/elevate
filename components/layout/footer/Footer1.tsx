@@ -11,7 +11,8 @@ export default function Footer1() {
 								<div className="col-lg-4 pe-10" data-aos="fade-zoom-in" data-aos-delay={100}>
 									<Link href="/" className="d-flex align-items-center mb-3">
 										<img src="/assets/imgs/template/Elevate.png" alt="Elevate" style={{width: "auto", height: "40px", objectFit: "contain", marginRight: "10px"}} />
-										<span className="text-white fw-bold fs-5">Elevate Presentation Designs</span>
+										<span className="text-white fw-bold fs-6">Elevate <br />Presentations</span>
+
 									</Link>
 									<p className="text-white fw-medium mt-3 mb-6 opacity-50">Elevate your presentations with our professional design services. We create stunning, impactful presentations that captivate your audience and deliver your message effectively.</p>
 									<div className="d-flex social-icons">
