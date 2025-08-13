@@ -166,9 +166,9 @@ export default function Contact3() {
 													</div>
 													<div className="col-12">
 														<button 
-															type="submit" 
-															className="btn gradient-btn" 
-															style={{backgroundColor: '#1E90FF', borderColor: '#1E90FF', color: 'white'}}
+																					type="submit" 
+																					className="btn gradient-btn rounded-pill px-4 py-3" 
+																					style={{backgroundColor: '#1E90FF', borderColor: '#1E90FF', color: 'white', fontSize: '0.9rem'}}
 															disabled={isSubmitting}
 														>
 																{isSubmitting ? 'Sending...' : 'Send Message'}

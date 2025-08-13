@@ -49,7 +49,7 @@ export default function Features3() {
 									<h3 className="ds-3 mt-2 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Powerful agency for corporate business.</h3>
 									<p className="mb-5" data-aos="fade-zoom-in" data-aos-delay={300}>Provide your team with top-tier group mentoring programs and exceptional professional benefits.</p>
 									<div className="d-flex align-items-center pb-7 border-bottom">
-										<Link href="#" className="btn btn-gradient" data-aos="fade-zoom-in" data-aos-delay={0}>
+										<Link href="#" className="btn btn-gradient rounded-pill px-4 py-3" style={{fontSize: '0.9rem'}} data-aos="fade-zoom-in" data-aos-delay={0}>
 											Get Free Quote
 											<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 												<path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

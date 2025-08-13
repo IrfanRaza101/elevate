@@ -17,7 +17,7 @@ export default function Blog5() {
 						</div>
 						<div className="col-lg-auto">
 							<div className="d-flex justify-content-center justify-content-lg-start">
-								<Link href="/blog" className="fw-bold btn btn-gradient hover-up shadow-2 mt-lg-0 mt-5" style={{color: 'white'}}>View all tips
+								<Link href="/blog" className="fw-bold btn btn-gradient rounded-pill px-4 py-3 hover-up shadow-2 mt-lg-0 mt-5" style={{color: 'white', fontSize: '0.9rem'}}>View all tips
 									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="none">
 										<path className="fill-dark" d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="white" />
 									</svg>

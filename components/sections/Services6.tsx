@@ -281,7 +281,7 @@ export default function Services6() {
                         </div>
                     </div>
                     <div className="text-center mt-6">
-                        <Link href="#" className="btn btn-gradient">
+                        <Link href="#" className="btn btn-gradient rounded-pill px-4 py-3" style={{fontSize: '0.9rem'}}>
                             Get a Free Quote
                             <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
                                 <path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

@@ -86,7 +86,7 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSear
 								</svg>
 							</a>
 							<ThemeSwitch />
-							<a href="#" className="btn btn-gradient d-none d-md-block">
+							<a href="#" className="btn btn-gradient d-none d-md-block rounded-pill px-4 py-3" style={{fontSize: '0.9rem'}}>
 								Get a Quote
 								<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 									<g clipPath="url(#clip0_474_2370)">

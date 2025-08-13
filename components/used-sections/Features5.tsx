@@ -1,4 +1,5 @@
 
+'use client'
 import Link from "next/link"
 
 export default function Features5() {
@@ -17,7 +18,7 @@ export default function Features5() {
 							<div className="col-lg-6 offset-lg-1 mt-lg-0 mt-5">
 								<h4 className="ds-4 fw-regular">Everything you need <br /> for <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={200}>stunning presentation <br className="d-none d-lg-inline" /> designs.</span></h4>
 								<p className="fs-5">Professional design tools, templates, and expertise to create presentations that captivate and convert your audience.</p>
-								<Link href="#projects" className="btn btn-gradient hover-up mt-5" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={200}>
+								<Link href="#projects" className="btn btn-gradient hover-up mt-5 rounded-pill px-4 py-3" style={{color: 'white', fontSize: '0.9rem'}} data-aos="fade-zoom-in" data-aos-delay={200}>
 									View Portfolio
 									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 										<path d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -28,18 +29,103 @@ export default function Features5() {
 						</div>
 						<div className="row py-90">
 							<div className="col-lg-10 px-lg-0 mx-lg-auto d-flex flex-wrap justify-content-center justify-content-lg-between gap-3">
-								<div className="btn btn-gradient px-4 py-3 hover-up rounded-pill fs-5 text-nowrap d-inline-block" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={0}>Custom Design</div>
-								<div className="btn btn-gradient px-4 py-3 hover-up rounded-pill fs-5 text-nowrap d-inline-block" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={100}>Animation Effects</div>
-								<div className="btn btn-gradient px-4 py-3 hover-up rounded-pill fs-5 text-nowrap d-inline-block" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={200}>Brand Integration</div>
-								<div className="btn btn-gradient px-4 py-3 hover-up rounded-pill fs-5 text-nowrap d-inline-block" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={300}>Template Library</div>
-								<div className="btn btn-gradient px-4 py-3 hover-up rounded-pill fs-5 text-nowrap d-inline-block" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={400}>Fast Delivery</div>
+								<div 
+									className="fw-bold fs-5 dark:text-white feature-item" 
+									data-aos="fade-zoom-in" 
+									data-aos-delay={0}
+									style={{
+										padding: '12px 24px',
+										borderRadius: '8px',
+										transition: 'all 0.3s ease',
+										cursor: 'pointer',
+										fontSize: '1.2rem'
+									}}
+									onMouseEnter={e => {
+										e.currentTarget.style.transform = 'translateY(-5px)';
+									}}
+									onMouseLeave={e => {
+										e.currentTarget.style.transform = 'translateY(0)';
+									}}
+								>Custom Design</div>
+								<div 
+									className="fw-bold dark:text-white feature-item" 
+									data-aos="fade-zoom-in" 
+									data-aos-delay={100}
+									style={{
+										padding: '12px 24px',
+										borderRadius: '8px',
+										transition: 'all 0.3s ease',
+										cursor: 'pointer',
+										fontSize: '1.2rem'
+									}}
+									onMouseEnter={e => {
+										e.currentTarget.style.transform = 'translateY(-5px)';
+									}}
+									onMouseLeave={e => {
+										e.currentTarget.style.transform = 'translateY(0)';
+									}}
+								>Animation Effects</div>
+								<div 
+									className="fw-bold dark:text-white feature-item" 
+									data-aos="fade-zoom-in" 
+									data-aos-delay={200}
+									style={{
+										padding: '12px 24px',
+										borderRadius: '8px',
+										transition: 'all 0.3s ease',
+										cursor: 'pointer',
+										fontSize: '1.2rem'
+									}}
+									onMouseEnter={e => {
+										e.currentTarget.style.transform = 'translateY(-5px)';
+									}}
+									onMouseLeave={e => {
+										e.currentTarget.style.transform = 'translateY(0)';
+									}}
+								>Brand Integration</div>
+								<div 
+									className="fw-bold dark:text-white feature-item" 
+									data-aos="fade-zoom-in" 
+									data-aos-delay={300}
+									style={{
+										padding: '12px 24px',
+										borderRadius: '8px',
+										transition: 'all 0.3s ease',
+										cursor: 'pointer',
+										fontSize: '1.2rem'
+									}}
+									onMouseEnter={e => {
+										e.currentTarget.style.transform = 'translateY(-5px)';
+									}}
+									onMouseLeave={e => {
+										e.currentTarget.style.transform = 'translateY(0)';
+									}}
+								>Template Library</div>
+								<div 
+									className="fw-bold dark:text-white feature-item" 
+									data-aos="fade-zoom-in" 
+									data-aos-delay={400}
+									style={{
+										padding: '12px 24px',
+										borderRadius: '8px',
+										transition: 'all 0.3s ease',
+										cursor: 'pointer',
+										fontSize: '1.2rem'
+									}}
+									onMouseEnter={e => {
+										e.currentTarget.style.transform = 'translateY(-5px)';
+									}}
+									onMouseLeave={e => {
+										e.currentTarget.style.transform = 'translateY(0)';
+									}}
+								>Fast Delivery</div>
 							</div>
 						</div>
 						<div className="row align-items-start pb-5 pt-lg-5 pt-0">
 							<div className="col-lg-5 order-2 order-lg-1 mt-lg-0 mt-10 pt-lg-0 pt-5">
 								<h4 className="ds-4 fw-regular">Experience the <br /> <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={200}>cutting-edge <br /></span>design process</h4>
 								<p className="fs-5">Our streamlined workflow ensures your presentations are delivered on time with exceptional quality and attention to detail.</p>
-								<Link href="#how-it-works" className="btn btn-gradient hover-up mt-5" style={{color: 'white'}} data-aos="fade-zoom-in" data-aos-delay={300}>
+								<Link href="#how-it-works" className="btn btn-gradient hover-up mt-5 rounded-pill px-4 py-3" style={{color: 'white', fontSize: '0.9rem'}} data-aos="fade-zoom-in" data-aos-delay={300}>
 									Explore Now
 									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 										<path d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

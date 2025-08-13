@@ -181,8 +181,8 @@ export default function Services2() {
 						</svg>
 					</div>
 					<div className="text-center mt-6 d-flex flex-wrap justify-content-center align-items-center gap-3">
-						<Link href="/page-services-1" className="btn btn-gradient">
-							Explore Now
+						<Link href="/page-services-1" className="btn btn-gradient rounded-pill px-4 py-3" style={{fontSize: '0.9rem'}}>
+						Explore Now
 							<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 								<path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 								<path className="stroke-white" d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

@@ -206,15 +206,15 @@ export default function MeetingScheduler() {
 															<div key={dayIndex} className="col p-1">
 																{day ? (
 																	<button
-																		className={`btn w-100 rounded border-0 ${
-																			day.isToday 
-																				? '' 
-																				: day.isAvailable 
-																					? selectedDate?.toDateString() === day.date.toDateString()
-																						? 'btn-gradient'
-																						: ''
-																					: ''
-																		}`}
+																		className={`btn w-100 rounded-pill border-0 ${
+																					day.isToday 
+																						? '' 
+																						: day.isAvailable 
+																							? selectedDate?.toDateString() === day.date.toDateString()
+																								? 'btn-gradient'
+																								: ''
+																							: ''
+																				}`}
 																		style={{
 																			minHeight: '40px',
 																			fontSize: '14px',
@@ -278,7 +278,7 @@ export default function MeetingScheduler() {
 														{timeSlots.map((time, index) => (
 															<div key={index} className="col-6">
 																<button
-																	className={`btn w-100 rounded border-0 ${selectedTime === time ? 'btn-gradient' : ''}`}
+																	className={`btn w-100 rounded-pill border-0 ${selectedTime === time ? 'btn-gradient' : ''}`}
 																	onClick={() => handleTimeSelect(time)}
 																	style={{ 
 																		fontSize: '14px', 
@@ -384,7 +384,7 @@ export default function MeetingScheduler() {
 														</button>
 														<button
 															type="submit"
-															className="btn btn-gradient border-0"
+															className="btn btn-gradient border-0 rounded-pill px-4 py-3"
 															style={{ 
 																fontSize: '14px',
 																padding: '10px 24px',

@@ -13,47 +13,50 @@ export default function Faqs3() {
     <>
       <section
         id="faqs"
-        className="section-faqs-1 section-padding position-relative"
+        className="pt-10 pb-8 position-relative"
       >
         <div className="container position-relative z-2">
           <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="text-start">
-                <div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
-                  <img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-                  <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
-                    Frequently Asked questions
+            <div className="col-lg-6 col-md-12 mb-5 mb-lg-0">
+              <div className="text-start pe-lg-2">
+                <div className="d-flex align-items-center position-relative z-2 d-inline-flex rounded-pill px-2 py-1" style={{ backgroundColor: '#EDF8FF' }}>
+                  <span className="fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#1E90FF' }}>New</span>
+                  <span className="fs-7 fw-medium mx-2" style={{ color: '#1E90FF' }}>
+                    FAQ
                   </span>
                 </div>
-                <h3 className="ds-3 my-3 fw-bold">
-                  Presentation design questions? <br />
+                <h3 className="ds-3 ds-md-2 mt-3 mb-3 fw-regular">
+                  Presentation design <span className="fw-bold">questions?</span> <br className="d-none d-lg-inline" />
                   We've got answers
                 </h3>
-                <div className="position-relative d-inline-block mt-3 mb-6">
+                <div className="position-relative d-inline-block mt-3 mb-4 mb-lg-6">
                   <img
                     src="/assets/imgs/faqs-3/img-1.png"
                     alt=""
-                    className=" rounded-pill border border-3 border-white"
+                    className="rounded-pill border border-3 border-white"
+                    style={{ width: '60px', height: '60px' }}
                   />
                   <img
                     src="/assets/imgs/faqs-3/img-2.png"
                     alt=""
-                    className="position-absolute z-1 top-0 start-50 mt-3 rounded-pill border border-3 border-white"
+                    className="position-absolute z-1 top-0 start-50 mt-2 rounded-pill border border-3 border-white"
+                    style={{ width: '50px', height: '50px' }}
                   />
                 </div>
-                <p className="fs-5 mb-0">
-                  Quick answers to presentation design questions. Can't <br />
+                <p className="fs-5 fs-md-4 mb-0 pe-lg-8">
+                  Quick answers to presentation design questions. Can't <br className="d-none d-lg-inline" />
                   find what you're looking for? Get in touch with us.
                 </p>
                 <div className="d-flex flex-column flex-sm-row align-items-center align-items-sm-center mt-5 gap-3">
                   <Link
                     href="/contact"
-                    className="btn btn-gradient btn-hover"
+                    className="btn btn-gradient btn-hover rounded-pill px-4 py-3"
                     style={{
                       backgroundColor: "#1E90FF", 
                       borderColor: "#1E90FF",
                       color: "white",
                       transition: "all 0.3s ease",
+                      fontSize: "0.9rem"
                     }}
                   >
                     Get in touch

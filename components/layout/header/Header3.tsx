@@ -62,9 +62,9 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSear
 									</svg>
 								</a>
 								<ThemeSwitch />
-								<a href="#" className="btn btn-gradient d-none d-md-block">
-									Join For Free Trial
-								</a>
+								<a href="#" className="btn btn-gradient d-none d-md-block rounded-pill px-4 py-3" style={{fontSize: '0.9rem'}}>
+								Join For Free Trial
+							</a>
 								<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>
 									<span className="burger-icon-top" />
 									<span className="burger-icon-mid" />

@@ -42,24 +42,26 @@ export default function Project1() {
 
 	return (
 		<>
-			<section id="projects" className="section-project-2 pt-120 pb-8">
+			<section id="projects" className="section-project-2 pt-10 pb-8">
 				<div className="container">
-					<div className="row mb-8">
-						<div className="col-lg-6">
-							<div className="d-flex align-items-center justify-text-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1">
-								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Portfolio</span>
+					<div className="row mb-5 mb-lg-8">
+						<div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
+							<div className="pe-2">
+								<div className="d-flex align-items-center d-inline-flex rounded-pill px-2 py-1" style={{ backgroundColor: '#EDF8FF' }}>
+									<span className="fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#1E90FF' }}>New</span>
+									<span className="fs-7 fw-medium mx-2" style={{ color: '#1E90FF' }}>Portfolio</span>
+								</div>
+								<h3 className="ds-3 ds-md-2 mt-3 mb-3 fw-regular">Our Featured <span className="fw-bold">Presentations</span></h3>
+								<p className="fs-5 fs-md-4 fw-medium pe-lg-10 mb-4">⚡Stunning presentations that drive results and engage audiences.</p>
 							</div>
-							<h3 className="ds-3 mt-3 mb-3">Our Featured Presentations</h3>
-							<p className="fs-5 fw-medium">⚡Stunning presentations that drive results and engage audiences.</p>
 						</div>
-						<div className="col-lg-2 col-md-3 col-12 ms-auto align-self-end mb-lg-7 mt-lg-0 mt-4">
-							<div className="position-relative z-0 d-flex justify-content-center justify-content-lg-end">
-								<button className="swiper-button-prev btn btn-primary rounded-circle shadow me-2 d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px', border: 'none'}}>
-									<i className="bi bi-arrow-left text-white fs-5" />
+						<div className="col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-end align-items-end">
+							<div className="position-relative z-0 d-flex">
+								<button className="swiper-button-prev btn btn-primary rounded-circle shadow me-2 d-flex align-items-center justify-content-center" style={{width: '45px', height: '45px', border: 'none'}}>
+									<i className="bi bi-arrow-left text-white fs-6" />
 								</button>
-								<button className="swiper-button-next btn btn-primary rounded-circle shadow d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px', border: 'none'}}>
-									<i className="bi bi-arrow-right text-white fs-5" />
+								<button className="swiper-button-next btn btn-primary rounded-circle shadow d-flex align-items-center justify-content-center" style={{width: '45px', height: '45px', border: 'none'}}>
+									<i className="bi bi-arrow-right text-white fs-6" />
 								</button>
 							</div>
 						</div>
