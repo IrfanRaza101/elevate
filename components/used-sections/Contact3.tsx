@@ -66,7 +66,7 @@ export default function Contact3() {
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase" style={{color: '#1E90FF'}}>Get in Touch</span>
 							</div>
-							<h3 className="ds-3 my-3">Let's Start a Conversation</h3>
+							<h3 className="ds-4 my-3">Let's Start a Conversation</h3>
 							<p className="fs-5 mb-0">
                 Transform your presentations into powerful stories. Let's collaborate to create impactful slides that captivate your audience and deliver your message effectively.
             </p>
@@ -78,7 +78,7 @@ export default function Contact3() {
 								<div className="col-lg-8">
 									<div className="card border-0 shadow-sm">
 										<div className="card-body p-6">
-											<h4 className="mb-4">Send us a message</h4>
+											<h4 className="ds-4 mb-4">Send us a message</h4>
 											<form onSubmit={handleSubmit}>
 												{submitStatus === 'success' && (
 													<div className="alert alert-success mb-4">
@@ -166,9 +166,9 @@ export default function Contact3() {
 													</div>
 													<div className="col-12">
 														<button 
-																					type="submit" 
-																					className="btn gradient-btn rounded-pill px-4 py-3" 
-																					style={{backgroundColor: '#1E90FF', borderColor: '#1E90FF', color: 'white', fontSize: '0.9rem'}}
+																									type="submit" 
+																									className="btn gradient-btn rounded-pill px-4 py-3" 
+																									style={{backgroundColor: '#1E90FF', borderColor: '#1E90FF', color: 'white', fontSize: '0.8rem'}}
 															disabled={isSubmitting}
 														>
 																{isSubmitting ? 'Sending...' : 'Send Message'}

@@ -48,7 +48,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="me-3 d-none d-lg-block">
 								<ThemeSwitch />
 							</div>
-							<Link href="#contact" className="btn btn-gradient d-none d-md-block text-white rounded-pill px-4 py-3" style={{fontSize: '0.9rem'}}>
+							<Link href="#contact" className="btn btn-gradient hover-up rounded-pill px-3 py-2" style={{ color: 'white', fontSize: '0.9rem' }}>
 							Free Consultation
 						</Link>
 							<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>

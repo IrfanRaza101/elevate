@@ -11,7 +11,7 @@ export default function HowItWork2() {
 							<span className="fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#1E90FF' }}>New</span>
 							<span className="fs-7 fw-medium mx-2" style={{ color: '#1E90FF' }}>DESIGN PROCESS</span>
 						</div>
-						<h3 className="ds-3 ds-md-2 mt-3 mb-3 fw-regular">How We Create Your <span className="fw-bold">Presentation</span></h3>
+						<h3 className="ds-4 mt-3 mb-3 fw-regular">How We Create Your <span className="fw-bold">Presentation</span></h3>
 						<p className="fs-5 fs-md-4 mb-4 px-lg-10">Our streamlined process for delivering stunning presentation designs.</p>
 					</div>
 				</div>

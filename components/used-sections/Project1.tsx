@@ -51,13 +51,13 @@ export default function Project1() {
 									<span className="fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#1E90FF' }}>New</span>
 									<span className="fs-7 fw-medium mx-2" style={{ color: '#1E90FF' }}>Portfolio</span>
 								</div>
-								<h3 className="ds-3 ds-md-2 mt-3 mb-3 fw-regular">Our Featured <span className="fw-bold">Presentations</span></h3>
-								<p className="fs-5 fs-md-4 fw-medium pe-lg-10 mb-4">⚡Stunning presentations that drive results and engage audiences.</p>
+								<h3 className="ds-4 mt-3 mb-3 fw-regular">Our Featured <span className="fw-bold">Presentations</span></h3>
+								<p className="fs-5 fs-md-4 fw-medium pe-lg-10 mb-4">Stunning presentations that drive results and engage audiences.</p>
 							</div>
 						</div>
 						<div className="col-lg-6 col-md-12 d-flex justify-content-center justify-content-lg-end align-items-end">
 							<div className="position-relative z-0 d-flex">
-								<button className="swiper-button-prev btn btn-primary rounded-circle shadow me-2 d-flex align-items-center justify-content-center" style={{width: '45px', height: '45px', border: 'none'}}>
+								<button className="swiper-button-prev btn btn-primary rounded-circle shadow me-5 d-flex align-items-center justify-content-center" style={{width: '45px', height: '45px', border: 'none'}}>
 									<i className="bi bi-arrow-left text-white fs-6" />
 								</button>
 								<button className="swiper-button-next btn btn-primary rounded-circle shadow d-flex align-items-center justify-content-center" style={{width: '45px', height: '45px', border: 'none'}}>

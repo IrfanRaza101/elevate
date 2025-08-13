@@ -125,7 +125,7 @@ export default function MeetingScheduler() {
 					{/* Ultra Compact Header */}
 					<div className="row">
 						<div className="col-md-8 mx-auto text-center mb-3">
-							<h5 className="fw-bold mb-1 text-dark dark:text-white" style={{ color: 'var(--dark-blue)' }}>Schedule Meeting</h5>
+							<h5 className="ds-4 fw-bold mb-1 text-dark dark:text-white" style={{ color: 'var(--dark-blue)' }}>Schedule Meeting</h5>
 							<p className="text-muted dark:text-gray-400 mb-0" style={{ fontSize: '13px' }}>Pick date & time</p>
 						</div>
 					</div>

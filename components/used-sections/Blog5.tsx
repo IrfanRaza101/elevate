@@ -12,15 +12,13 @@ export default function Blog5() {
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Design Insights</span>
 							</div>
-							<h3 className="ds-3 mt-3 mb-3">Presentation Design Tips</h3>
+							<h3 className="ds-4 mt-3 mb-3">Presentation Design Tips</h3>
 							<span className="fs-5 fw-medium text-900">Expert insights and best practices for creating stunning presentations</span>
 						</div>
 						<div className="col-lg-auto">
 							<div className="d-flex justify-content-center justify-content-lg-start">
-								<Link href="/blog" className="fw-bold btn btn-gradient rounded-pill px-4 py-3 hover-up shadow-2 mt-lg-0 mt-5" style={{color: 'white', fontSize: '0.9rem'}}>View all tips
-									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="none">
-										<path className="fill-dark" d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="white" />
-									</svg>
+								<Link href="/blog" className="btn btn-gradient hover-up rounded-pill px-3 py-2" style={{ color: 'white', fontSize: '0.8rem' }}>View all tips
+									
 								</Link>
 							</div>
 						</div>

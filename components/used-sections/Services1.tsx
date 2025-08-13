@@ -11,7 +11,7 @@ export default function Services1() {
 									<span className="fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#1E90FF' }}>New</span>
 									<span className="fs-7 fw-medium mx-2" style={{color: '#1E90FF'}}>Our Services</span>
 								</div>
-						<h3 className="ds-3 ds-md-2 mt-3 mb-3 fw-regular" data-aos="fade-zoom-in" data-aos-delay={300}>Presentation Design <span className="fw-bold">Services</span></h3>
+						<h3 className="ds-4 mt-3 mb-3 fw-regular" data-aos="fade-zoom-in" data-aos-delay={300}>Presentation Design <span className="fw-bold">Services</span></h3>
 						<p className="fs-5 fs-md-4 px-lg-10 mb-4" data-aos="fade-zoom-in" data-aos-delay={100}>From corporate presentations to creative pitches, we deliver professional presentation designs that make an impact.</p>
 					</div>
 					<div className="row mt-5 mt-lg-6 position-relative">

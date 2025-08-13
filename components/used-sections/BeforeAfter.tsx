@@ -72,9 +72,9 @@ export default function BeforeAfter() {
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 								<span className="tag-spacing fs-8 fs-md-7 fw-bold text-linear-2 ms-2 text-uppercase">TRANSFORMATION</span>
 							</div>
-							<h3 className="ds-4 ds-md-3 my-3" data-aos="fade-up" data-aos-delay={200}>
-								See The Difference We Make
-							</h3>
+							<h3 className="ds-4 my-3" data-aos="fade-up" data-aos-delay={200}>
+							See The Difference We Make
+						</h3>
 							<p className="fs-6 fs-md-5 mb-0 px-2" data-aos="fade-up" data-aos-delay={300}>
 								Drag the slider to see how we transform ordinary presentations into 
 								stunning visual masterpieces that captivate your audience.

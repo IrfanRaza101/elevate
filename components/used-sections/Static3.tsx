@@ -9,9 +9,9 @@ export default function Static3() {
 					<div className="inner">
 						<div className="row align-items-center justify-content-between">
 							<div className="col-lg-auto col-md-12 text-center text-lg-start mb-5 mb-lg-0">
-								<h4 className="mb-0">
+								<h5 className="mb-0">
 									See why we are <br /> the presentation design experts
-								</h4>
+								</h5>
 							</div>
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">

@@ -25,7 +25,7 @@ export default function Faqs3() {
                     FAQ
                   </span>
                 </div>
-                <h3 className="ds-3 ds-md-2 mt-3 mb-3 fw-regular">
+                <h3 className="ds-4 mt-3 mb-3 fw-regular">
                   Presentation design <span className="fw-bold">questions?</span> <br className="d-none d-lg-inline" />
                   We've got answers
                 </h3>
@@ -50,41 +50,16 @@ export default function Faqs3() {
                 <div className="d-flex flex-column flex-sm-row align-items-center align-items-sm-center mt-5 gap-3">
                   <Link
                     href="/contact"
-                    className="btn btn-gradient btn-hover rounded-pill px-4 py-3"
+                    className="btn btn-gradient btn-hover rounded-pill px-3 py-2"
                     style={{
                       backgroundColor: "#1E90FF", 
                       borderColor: "#1E90FF",
                       color: "white",
                       transition: "all 0.3s ease",
-                      fontSize: "0.9rem"
+                      fontSize: "0.8rem"
                     }}
                   >
                     Get in touch
-                    <svg
-                      className="ms-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={24}
-                      height={24}
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
-                      <path
-                        className="stroke-white"
-                        d="M17.25 15.25V6.75H8.75"
-                        stroke="white"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                      <path
-                        className="stroke-white"
-                        d="M17 7L6.25 17.25"
-                        stroke="white"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
                   </Link>
                 </div>
               </div>
@@ -185,10 +160,9 @@ export default function Faqs3() {
                     data-bs-parent=".accordion"
                   >
                     <p className="ps-0card-body">
-                      We start with a comprehensive analysis of your current
-                      brand and online presence, followed by a tailored strategy
-                      to improve your brand identity, optimize your website for
-                      search engines, and create a cohesive branding plan.
+                      The timeline depends on the complexity and length of your presentation. 
+                      Simple presentations take 2-3 days, while complex corporate presentations 
+                      with custom graphics and animations may take 5-7 days.
                     </p>
                   </div>
                 </div>
@@ -199,7 +173,7 @@ export default function Faqs3() {
                       onClick={() => handleActiveItem(3)}
                       data-bs-toggle="collapse"
                     >
-                      <h6 className="m-0">How do your services work?</h6>
+                      <h6 className="m-0">What types of <span style={{ color: "#1E90FF" }}>presentations</span> do you design?</h6>
                       <span className="ms-auto arrow me-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -230,10 +204,9 @@ export default function Faqs3() {
                     data-bs-parent=".accordion"
                   >
                     <p className="ps-0card-body">
-                      We start with a comprehensive analysis of your current
-                      brand and online presence, followed by a tailored strategy
-                      to improve your brand identity, optimize your website for
-                      search engines, and create a cohesive branding plan.
+                      We design all types of presentations including corporate presentations, 
+                      sales pitches, investor decks, training materials, conference presentations, 
+                      product launches, and educational content.
                     </p>
                   </div>
                 </div>
@@ -244,7 +217,7 @@ export default function Faqs3() {
                       onClick={() => handleActiveItem(4)}
                       data-bs-toggle="collapse"
                     >
-                      <h6 className="m-0">What is SEO and why do I need it?</h6>
+                      <h6 className="m-0">Do you provide <span style={{ color: "#1E90FF" }}>revisions</span> and edits?</h6>
                       <span className="ms-auto arrow me-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -275,10 +248,9 @@ export default function Faqs3() {
                     data-bs-parent=".accordion"
                   >
                     <p className="ps-0card-body">
-                      We start with a comprehensive analysis of your current
-                      brand and online presence, followed by a tailored strategy
-                      to improve your brand identity, optimize your website for
-                      search engines, and create a cohesive branding plan.
+                      Yes, we provide up to 3 rounds of revisions included in our standard package. 
+                      We work closely with you to ensure the final presentation meets your 
+                      expectations and requirements.
                     </p>
                   </div>
                 </div>
@@ -289,7 +261,7 @@ export default function Faqs3() {
                       onClick={() => handleActiveItem(5)}
                       data-bs-toggle="collapse"
                     >
-                      <h6 className="m-0">What SEO strategies do you use?</h6>
+                      <h6 className="m-0">What formats do you deliver <span style={{ color: "#1E90FF" }}>presentations</span> in?</h6>
                       <span className="ms-auto arrow me-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -320,10 +292,9 @@ export default function Faqs3() {
                     data-bs-parent=".accordion"
                   >
                     <p className="ps-0card-body">
-                      We start with a comprehensive analysis of your current
-                      brand and online presence, followed by a tailored strategy
-                      to improve your brand identity, optimize your website for
-                      search engines, and create a cohesive branding plan.
+                      We deliver presentations in multiple formats including PowerPoint (PPTX), 
+                      Google Slides, Keynote, PDF, and can also provide source files in 
+                      Adobe Creative Suite formats if needed.
                     </p>
                   </div>
                 </div>
