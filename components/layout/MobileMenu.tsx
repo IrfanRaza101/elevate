@@ -52,11 +52,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu, handleSearc
 												handleMobileMenu();
 											}}>Home</Link>
 										</li>
-										<li className="nav-item">
-											<Link className="nav-link fw-bold d-flex align-items-center" href="/about" onClick={() => {
-												handleMobileMenu();
-											}}>About</Link>
-										</li>
+									
 										<li className="nav-item">
 											<Link className="nav-link fw-bold d-flex align-items-center" href="#services" onClick={(e) => {
 												e.preventDefault();
@@ -75,25 +71,23 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu, handleSearc
 												}, 300);
 											}}>Portfolio</Link>
 										</li>
-										<li className="nav-item">
-											<Link className="nav-link fw-bold d-flex align-items-center" href="#team" onClick={(e) => {
-												e.preventDefault();
-												handleMobileMenu();
-												setTimeout(() => {
-													document.getElementById('team')?.scrollIntoView({ behavior: 'smooth' });
-												}, 300);
-											}}>Team</Link>
-										</li>
+										
 										<li className="nav-item">
 											<Link className="nav-link fw-bold d-flex align-items-center" href="/blog" onClick={() => {
 												handleMobileMenu();
 											}}>Blog</Link>
 										</li>
-										<li className="nav-item">
-											<Link className="nav-link fw-bold d-flex align-items-center" href="/contact" onClick={() => {
+											<li className="nav-item">
+											<Link className="nav-link fw-bold d-flex align-items-center" href="/about" onClick={() => {
 												handleMobileMenu();
-											}}>Contact</Link>
+											}}>About</Link>
 										</li>
+										
+											<li className="nav-item">
+												<Link className="nav-link fw-bold d-flex align-items-center btn btn-gradient text-white rounded-pill px-3 py-2 mt-3" href="/contact" onClick={() => {
+													handleMobileMenu();
+												}} style={{ fontSize: '0.9rem' }}>Free Consultation</Link>
+											</li>
 									</ul>
 								</nav>
 							</div>

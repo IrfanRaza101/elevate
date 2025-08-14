@@ -11,32 +11,18 @@ export default function Menu() {
 						<Link className="nav-link fw-bold d-flex align-items-center" href="/">Home</Link>	
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="/about">About</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center" href="/services">Services</Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="#services" onClick={(e) => {
-							e.preventDefault();
-							document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
-						}}>Services</Link>
-					</li>
-					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="#projects" onClick={(e) => {
-							e.preventDefault();
-							document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
-						}}>Portfolio</Link>
-					</li>
-					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="#team" onClick={(e) => {
-							e.preventDefault();
-							document.getElementById('team')?.scrollIntoView({ behavior: 'smooth' });
-						}}>Team</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center" href="/portfolio">Portfolio</Link>
 					</li>
 					<li className="nav-item">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="/blog">Blog</Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="/contact">Contact</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center" href="/about">About</Link>
 					</li>
+					
 				</ul>
 			</div>
 		</>

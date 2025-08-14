@@ -192,6 +192,22 @@ a:hover, .link:hover {
   background: linear-gradient(135deg, var(--light-background), #ffffff) !important;
 }
 
+/* Custom Container Max-Width for Large Screens */
+.container,
+.container-fluid,
+.container-xl,
+.container-xxl {
+   max-width: 1600px !important;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-xl,
+  .container-xxl {
+    max-width: 1600px !important;
+  }
+}
+
 /* Floating Buttons CSS */
 .floating-buttons {
   position: fixed !important;

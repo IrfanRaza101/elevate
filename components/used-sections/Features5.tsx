@@ -18,12 +18,9 @@ export default function Features5() {
 							<div className="col-lg-6 offset-lg-1 mt-lg-0 mt-5">
 								<h4 className="ds-4 fw-regular">Everything you need <br /> for <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={200}>stunning presentation <br className="d-none d-lg-inline" /> designs.</span></h4>
 								<p className="fs-5">Professional design tools, templates, and expertise to create presentations that captivate and convert your audience.</p>
-								<Link href="#projects" className="btn btn-gradient hover-up mt-5 rounded-pill px-4 py-3" style={{color: 'white', fontSize: '0.8rem'}} data-aos="fade-zoom-in" data-aos-delay={200}>
+								<Link href="#projects" className="btn btn-gradient hover-up mt-5 rounded-pill px-3 py-2" style={{color: 'white', fontSize: '0.8rem'}} data-aos="fade-zoom-in" data-aos-delay={200}>
 									View Portfolio
-									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-										<path d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-										<path d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-									</svg>
+									
 								</Link>
 							</div>
 						</div>
@@ -125,12 +122,9 @@ export default function Features5() {
 							<div className="col-lg-5 order-2 order-lg-1 mt-lg-0 mt-10 pt-lg-0 pt-5">
 								<h4 className="ds-4 fw-regular">Experience the <br /> <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={200}>cutting-edge <br /></span>design process</h4>
 								<p className="fs-5">Our streamlined workflow ensures your presentations are delivered on time with exceptional quality and attention to detail.</p>
-								<Link href="#how-it-works" className="btn btn-gradient hover-up mt-5 rounded-pill px-4 py-3" style={{color: 'white', fontSize: '0.9rem'}} data-aos="fade-zoom-in" data-aos-delay={300}>
+								<Link href="#how-it-works" className="btn btn-gradient hover-up mt-5 rounded-pill px-3 py-2" style={{color: 'white', fontSize: '0.8rem'}} data-aos="fade-zoom-in" data-aos-delay={300}>
 									Explore Now
-									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-										<path d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-										<path d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-									</svg>
+									
 								</Link>
 							</div>
 							<div className="col-lg-6 offset-lg-1 order-1 order-lg-2 mt-5 text-lg-end text-center">

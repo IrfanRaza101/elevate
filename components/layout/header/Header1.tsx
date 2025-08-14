@@ -13,30 +13,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 					<div className="container">
 <Link className="navbar-brand d-flex main-logo align-items-center gap-3" href="/">
     <img 
-        src="/assets/imgs/template/Elevate.png" 
+        src="/assets/imgs/template/Elevates.png" 
         alt="infinia" 
         className="h-[45px] w-auto object-contain" 
         style={{
-            maxHeight: scroll ? '50px' : '45px',
+            maxHeight: scroll ? '60px' : '60px',
             transition: 'all 0.3s ease'
         }} 
     />
-    <span className="font-semibold text-sm d-flex flex-column" style={{
-        fontSize: scroll ? '1.1rem' : '1.25rem',
-        lineHeight: '1.2',
-        transition: 'all 0.3s ease'
-    }}>
-        <span style={{
-            fontSize: scroll ? '1rem' : '1rem',
-            lineHeight: '1.1',
-            transition: 'all 0.3s ease'
-        }}>Elevate</span>
-        <span className="text-sm" style={{
-            fontSize: scroll ? '1rem' : '1rem',
-            lineHeight: '1.1',
-            transition: 'all 0.3s ease'
-        }}>Presentations</span>
-    </span>
 						</Link>
 						<Menu/>
 						<div className="d-flex align-items-center justify-content-end pe-5 pe-lg-0 me-5 me-lg-0">
@@ -48,9 +32,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="me-3 d-none d-lg-block">
 								<ThemeSwitch />
 							</div>
-							<Link href="#contact" className="btn btn-gradient hover-up rounded-pill px-3 py-2" style={{ color: 'white', fontSize: '0.9rem' }}>
-							Free Consultation
-						</Link>
+							<Link href="/contact" className="btn btn-gradient hover-up rounded-pill px-3 py-2 d-none d-lg-block" style={{ color: 'white', fontSize: '0.9rem' }}>
+						Free Consultation
+					</Link>
 							<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>
 								<span className="burger-icon-top" />
 								<span className="burger-icon-mid" />
