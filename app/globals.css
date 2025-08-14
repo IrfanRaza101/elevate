@@ -14,79 +14,85 @@
   --light-blue: #38B6FF;
   --dark-gray: #2D2D34;
   --light-background: #EDF8FF;
-  
+
   /* Theme Color Variables for Components */
   --tc-theme-primary: #1E90FF;
   --tc-theme-primary-light: #38B6FF;
   --tc-theme-primary-soft: #EDF8FF;
   --tc-theme-primary-dark: #0066CC;
-  
+
   /* Updated RGB values for new color scheme */
-  --foreground-rgb: 45, 45, 52; /* #2D2D34 */
-  --background-start-rgb: 237, 248, 255; /* #EDF8FF */
+  --foreground-rgb: 45, 45, 52;
+  /* #2D2D34 */
+  --background-start-rgb: 237, 248, 255;
+  /* #EDF8FF */
   --background-end-rgb: 255, 255, 255;
 
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #1E90FF33 0deg,
-    #1E90FF33 55deg,
-    #38B6FF33 120deg,
-    #003459 33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(237, 248, 255, 1),
-    rgba(237, 248, 255, 0)
-  );
+  --primary-glow: conic-gradient(from 180deg at 50% 50%,
+      #1E90FF33 0deg,
+      #1E90FF33 55deg,
+      #38B6FF33 120deg,
+      #003459 33 160deg,
+      transparent 360deg);
+  --secondary-glow: radial-gradient(rgba(237, 248, 255, 1),
+      rgba(237, 248, 255, 0));
 
-  --tile-start-rgb: 237, 248, 255; /* #EDF8FF */
+  --tile-start-rgb: 237, 248, 255;
+  /* #EDF8FF */
   --tile-end-rgb: 255, 255, 255;
-  --tile-border: conic-gradient(
-    #00345980,
-    #00345940,
-    #00345930,
-    #00345920,
-    #00345910,
-    #00345910,
-    #00345980
-  );
+  --tile-border: conic-gradient(#00345980,
+      #00345940,
+      #00345930,
+      #00345920,
+      #00345910,
+      #00345910,
+      #00345980);
 
-  --callout-rgb: 237, 248, 255; /* #EDF8FF */
-  --callout-border-rgb: 56, 182, 255; /* #38B6FF */
-  --card-rgb: 237, 248, 255; /* #EDF8FF */
-  --card-border-rgb: 30, 144, 255; /* #1E90FF */
+  --callout-rgb: 237, 248, 255;
+  /* #EDF8FF */
+  --callout-border-rgb: 56, 182, 255;
+  /* #38B6FF */
+  --card-rgb: 237, 248, 255;
+  /* #EDF8FF */
+  --card-border-rgb: 30, 144, 255;
+  /* #1E90FF */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 237, 248, 255; /* #EDF8FF */
-    --background-start-rgb: 0, 52, 89; /* #003459 */
-    --background-end-rgb: 45, 45, 52; /* #2D2D34 */
+    --foreground-rgb: 237, 248, 255;
+    /* #EDF8FF */
+    --background-start-rgb: 0, 52, 89;
+    /* #003459 */
+    --background-end-rgb: 45, 45, 52;
+    /* #2D2D34 */
 
     --primary-glow: radial-gradient(rgba(82, 113, 255, 0.4), rgba(82, 113, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(30, 144, 255, 0),
-      rgba(30, 144, 255, 0),
-      rgba(30, 144, 255, 0.3)
-    );
+    --secondary-glow: linear-gradient(to bottom right,
+        rgba(30, 144, 255, 0),
+        rgba(30, 144, 255, 0),
+        rgba(30, 144, 255, 0.3));
 
-    --tile-start-rgb: 0, 52, 89; /* #003459 */
-    --tile-end-rgb: 45, 45, 52; /* #2D2D34 */
-    --tile-border: conic-gradient(
-      #1E90FF80,
-      #1E90FF40,
-      #1E90FF30,
-      #1E90FF20,
-      #1E90FF10,
-      #1E90FF10,
-      #1E90FF80
-    );
+    --tile-start-rgb: 0, 52, 89;
+    /* #003459 */
+    --tile-end-rgb: 45, 45, 52;
+    /* #2D2D34 */
+    --tile-border: conic-gradient(#1E90FF80,
+        #1E90FF40,
+        #1E90FF30,
+        #1E90FF20,
+        #1E90FF10,
+        #1E90FF10,
+        #1E90FF80);
 
-    --callout-rgb: 0, 52, 89; /* #003459 */
-    --callout-border-rgb: 56, 182, 255; /* #38B6FF */
-    --card-rgb: 45, 45, 52; /* #2D2D34 */
-    --card-border-rgb: 30, 144, 255; /* #1E90FF */
+    --callout-rgb: 0, 52, 89;
+    /* #003459 */
+    --callout-border-rgb: 56, 182, 255;
+    /* #38B6FF */
+    --card-rgb: 45, 45, 52;
+    /* #2D2D34 */
+    --card-border-rgb: 30, 144, 255;
+    /* #1E90FF */
   }
 }
 
@@ -105,12 +111,9 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   font-family: 'Poppins', sans-serif;
 }
 
@@ -126,55 +129,128 @@ a {
 }
 
 /* Ensure Poppins font is applied to all text elements */
-h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea, select, label {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a,
+button,
+input,
+textarea,
+select,
+label {
   font-family: 'Poppins', sans-serif !important;
 }
 
+/* Heading colors */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2D2D34 !important;
+}
+
 /* Custom Color Utility Classes */
-.bg-primary { background-color: var(--primary-color) !important; }
-.bg-secondary { background-color: var(--secondary-color) !important; }
-.bg-dark-blue { background-color: var(--dark-blue) !important; }
-.bg-light-blue { background-color: var(--light-blue) !important; }
-.bg-dark-gray { background-color: var(--dark-gray) !important; }
-.bg-light-background { background-color: var(--light-background) !important; }
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
 
-.text-primary { color: var(--primary-color) !important; }
-.text-secondary { color: var(--secondary-color) !important; }
-.text-dark-blue { color: var(--dark-blue) !important; }
-.text-light-blue { color: var(--light-blue) !important; }
-.text-dark-gray { color: var(--dark-gray) !important; }
-.text-light { color: var(--light-background) !important; }
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
 
-.border-primary { border-color: var(--primary-color) !important; }
-.border-secondary { border-color: var(--secondary-color) !important; }
-.border-light-blue { border-color: var(--light-blue) !important; }
+.bg-dark-blue {
+  background-color: var(--dark-blue) !important;
+}
+
+.bg-light-blue {
+  background-color: var(--light-blue) !important;
+}
+
+.bg-dark-gray {
+  background-color: var(--dark-gray) !important;
+}
+
+.bg-light-background {
+  background-color: var(--light-background) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.text-dark-blue {
+  color: var(--dark-blue) !important;
+}
+
+.text-light-blue {
+  color: var(--light-blue) !important;
+}
+
+.text-dark-gray {
+  color: var(--dark-gray) !important;
+}
+
+.text-light {
+  color: var(--light-background) !important;
+}
+
+.border-primary {
+  border-color: var(--primary-color) !important;
+}
+
+.border-secondary {
+  border-color: var(--secondary-color) !important;
+}
+
+.border-light-blue {
+  border-color: var(--light-blue) !important;
+}
 
 /* Apply color scheme to common elements */
-.btn-primary, button[class*="primary"] {
+.btn-primary,
+button[class*="primary"] {
   background-color: var(--primary-color) !important;
   border-color: var(--primary-color) !important;
   color: white !important;
 }
 
-.btn-secondary, button[class*="secondary"] {
+.btn-secondary,
+button[class*="secondary"] {
   background-color: var(--secondary-color) !important;
   border-color: var(--secondary-color) !important;
   color: white !important;
 }
 
 /* Links and interactive elements */
-a:hover, .link:hover {
+a:hover,
+.link:hover {
   color: var(--primary-color) !important;
 }
 
 /* Cards and containers */
-.card, .container, .section {
+.card,
+.container,
+.section {
   background-color: var(--light-background);
   border-color: var(--light-blue);
 }
 
 /* Headers and navigation */
-.navbar, .header, nav {
+.navbar,
+.header,
+nav {
   background-color: var(--light-background) !important;
 }
 
@@ -197,14 +273,16 @@ a:hover, .link:hover {
 .container-fluid,
 .container-xl,
 .container-xxl {
-   max-width: 1600px !important;
+  width: 100% !important;
+  max-width: 2000px !important;
 }
 
 @media (min-width: 1400px) {
   .container,
   .container-xl,
   .container-xxl {
-    max-width: 1600px !important;
+    width: 100% !important;
+    max-width: 2000px !important;
   }
 }
 
@@ -214,7 +292,8 @@ a:hover, .link:hover {
   bottom: 20px !important;
   right: 20px !important;
   z-index: 99999 !important;
-  display: none !important; /* Initially hidden */
+  display: none !important;
+  /* Initially hidden */
   flex-direction: column !important;
   gap: 10px !important;
   pointer-events: auto !important;

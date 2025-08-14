@@ -4,7 +4,14 @@ import Link from "next/link"
 export default function HowItWork2() {
 	return (
 		<>
-			<section id="how-it-works" className="howitwork-2 pt-10 pb-8 position-relative fix">
+			<section id="how-it-works" className="howitwork-2 pt-10 pb-8 position-relative fix" style={{height: '80vh',
+					margin: '0 auto',
+					display: 'flex',
+					flexDirection: 'column',
+
+					alignItems: 'center',
+					justifyContent: 'center',
+					}}>
 				<div className="container position-relative z-1">
 					<div className="text-center mb-5 mb-lg-8">
 						<div className="d-flex align-items-center position-relative z-2 justify-content-center d-inline-flex rounded-pill px-2 py-1" style={{ backgroundColor: '#EDF8FF' }}>

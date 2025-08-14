@@ -6,7 +6,7 @@ export default function Cta8() {
 		<>
 			<section id="process" className="section-cta-8 d-bg-7">
 				<div className="container-fluid position-relative section-padding">
-					<div className="container">
+					<div className="container" >
 						<div className="row align-items-center">
 							<div className="col-lg-5">
 								<div className="d-flex align-items-center justify-content-center border border-2 border-white d-inline-flex rounded-pill px-4 py-2 bg-1" data-aos="zoom-in" data-aos-delay={100}>

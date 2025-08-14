@@ -7,7 +7,7 @@ export default function Features5() {
 		<>
 			<section id="features" className="section-feature-5">
 				<div className="container-fluid position-relative section-padding bg-1">
-					<div className="container">
+					<div className="container" >
 						<div className="row align-items-center">
 							<div className="col-lg-5">
 								<div className="photo-description position-relative  rounded-4">

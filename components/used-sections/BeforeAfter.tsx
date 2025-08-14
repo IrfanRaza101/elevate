@@ -65,7 +65,7 @@ export default function BeforeAfter() {
 	return (
 		<>
 			<section className="section-before-after bg-neutral-0" style={{ paddingTop: '80px', paddingBottom: '40px' }}>
-				<div className="container">
+				<div className="container" >
 					<div className="row">
 						<div className="col-lg-8 col-md-10 mx-auto text-center mb-lg-8">
 							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 px-md-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
@@ -170,42 +170,7 @@ export default function BeforeAfter() {
 						</div>
 					</div>
 
-					{/* Features Below */}
-					<div className="row mt-4 mt-lg-6">
-						<div className="col-lg-4 col-md-6 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay={500}>
-							<div className="text-center px-2">
-								<div className="icon-shape icon-lg bg-primary-soft rounded-circle mx-auto mb-3">
-									<svg className="text-primary" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-										<path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z"/>
-									</svg>
-								</div>
-								<h6 className="fw-bold mb-2 fs-6">Professional Design</h6>
-								<p className="text-500 mb-0 fs-7">Transform basic slides into visually stunning presentations</p>
-							</div>
-						</div>
-						<div className="col-lg-4 col-md-6 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay={600}>
-							<div className="text-center px-2">
-								<div className="icon-shape icon-lg bg-primary-soft rounded-circle mx-auto mb-3">
-									<svg className="text-primary" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-										<path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"/>
-									</svg>
-								</div>
-								<h6 className="fw-bold mb-2 fs-6">Brand Consistency</h6>
-								<p className="text-500 mb-0 fs-7">Maintain your brand identity across all presentation materials</p>
-							</div>
-						</div>
-						<div className="col-lg-4 col-md-6 mb-2 mb-lg-2 mx-md-auto" data-aos="fade-up" data-aos-delay={700}>
-							<div className="text-center px-2">
-								<div className="icon-shape icon-lg bg-primary-soft rounded-circle mx-auto mb-3">
-									<svg className="text-primary" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-										<path d="M13 10V3L4 14H11V21L20 10H13Z"/>
-									</svg>
-								</div>
-								<h6 className="fw-bold mb-2 fs-6">Quick Turnaround</h6>
-								<p className="text-500 mb-0 fs-7">Get your polished presentations delivered in record time</p>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</section>
 		</>

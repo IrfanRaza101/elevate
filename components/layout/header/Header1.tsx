@@ -11,6 +11,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 			<header>
 				<nav className={`navbar navbar-expand-lg navbar-light w-100 z-999 ${scroll ? 'navbar-stick' : ''}`} style={{ position: `${scroll? "fixed" : "relative"}`, top: `${scroll? "0" : "auto"}` }}>
 					<div className="container">
+
 <Link className="navbar-brand d-flex main-logo align-items-center gap-3" href="/">
     <img 
         src="/assets/imgs/template/Elevates.png" 
@@ -32,7 +33,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="me-3 d-none d-lg-block">
 								<ThemeSwitch />
 							</div>
-							<Link href="/contact" className="btn btn-gradient hover-up rounded-pill px-3 py-2 d-none d-lg-block" style={{ color: 'white', fontSize: '0.9rem' }}>
+<Link href="/contact" className="btn btn-gradient rounded-pill px-3 py-2 d-none d-lg-block me-5" style={{ color: 'white', fontSize: '0.9rem', transform: 'none', transition: 'none' }}>
+
 						Free Consultation
 					</Link>
 							<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>

@@ -6,27 +6,34 @@ export default function Hero1() {
 	return (
 		<>
 			<section id="home" className="position-relative overflow-hidden pb-10">
-				<div className="container">
-					<div className="row content align-items-center">
+				<div className="container" >
+
+					<div className="row content align-items-center" style={{height: '100vh',
+					margin: '-120px auto',
+
+					}}>
+
 						<div className="col-lg-6 col-md-12 mb-lg-0 mb-5">
 							<div className="pe-2">
 								<Link href="#" className="d-flex align-items-center d-inline-flex rounded-pill px-2 py-1 mt-10" style={{ backgroundColor: '#EDF8FF' }}>
 
-									<span className="fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#1E90FF' }}>New</span>
+									
 									<span className="fs-7 fw-medium mx-2" style={{ color: '#1E90FF' }}>Professional Templates</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width={18} height={19} viewBox="0 0 18 19" fill="none">
 										<path d="M10.3125 5.5625L14.4375 9.5L10.3125 13.4375" stroke="#1E90FF" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
 										<path d="M14.25 9.5H3.5625" stroke="#1E90FF" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
 								</Link>
-								<h3 className="ds-4 mt-3 mb-3 fw-regular" data-aos="fade-zoom-in" data-aos-delay={0}>
+								<h3 className="ds-4 mt-3 mb-3 pe-10 fw-regular" data-aos="fade-zoom-in" data-aos-delay={0}>
+
 									Create Stunning <span className="fw-bold">Presentation Designs </span>
 									That Captivate
 								</h3>
-								<p className="pe-10 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Transform your ideas into compelling visual stories with our premium presentation design services and professional templates.</p>
+								<p className="pe-12 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Transform your ideas into compelling visual stories with our premium presentation design services and professional templates.</p>
+
 
 								<div className="d-flex justify-content-center justify-content-lg-start">
-									<Link href="#contact" className="btn btn-gradient hover-up rounded-pill px-3 py-2" style={{ color: 'white', fontSize: '0.8rem' }} data-aos="fade-zoom-in" data-aos-delay={500}>
+									<Link href="#contact" className="btn btn-gradient rounded-pill px-3 py-2" style={{ color: 'white', fontSize: '0.8rem' }} data-aos="fade-zoom-in" data-aos-delay={100}>
 										Start Your Project
 									</Link>
 								</div>
@@ -78,14 +85,14 @@ export default function Hero1() {
 						>
 							<img 
 								id="hero-img"
-								src="/assets/imgs/hero-1/2.jpg" 
+								src="/assets/imgs/hero-1/2.png" 
 								alt="Hero Image" 
 								className="img-fluid rounded-4" 
 								style={{ 
 									width: '100%',
 									height: 'auto', 
 									objectFit: 'cover',
-									transition: 'all 0.3s ease',
+									transition: 'all 0.6s ease',
 									cursor: 'pointer',
 									transform: 'perspective(1000px)'
 								}}

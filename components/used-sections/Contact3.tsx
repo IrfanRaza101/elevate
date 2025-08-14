@@ -59,7 +59,7 @@ export default function Contact3() {
 	return (
 		<>
 			<section id="contact" className="section-contact-3 position-relative section-padding">
-				<div className="container">
+				<div className="container" >
 					<div className="row">
 						<div className="col-lg-8 mx-auto text-center">
 							<div className="d-flex align-items-center justify-content-center border border-2 border-white d-inline-flex rounded-pill px-4 py-2" style={{backgroundColor: '#EDF8FF'}}>

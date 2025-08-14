@@ -5,7 +5,7 @@ export default function Team2() {
 	return (
 		<>
 			<section id="team" className="pt-10 pb-8">
-				<div className="container">
+				<div className="container" >
 					<div className="row align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0">
 							<div className="text-start pe-lg-2">
@@ -35,15 +35,11 @@ export default function Team2() {
 						</div>
 						<div className="col-lg-6">
 							<div className="row">
-								<div className="col-md-6 mb-lg-4 mb-7 text-center" data-aos="fade-zoom-in" data-aos-delay={100}>
+								<div className="col-md-6 mb-lg-4 mb-7 text-center" data-aos="fade-zoom-in" data-aos-delay={300}>
 									<div className="position-relative d-inline-block z-1">
-										<div className="zoom-img rounded-3" style={{ overflow: 'hidden' }}>
-											<img
-												className="img-fluid "
-												src="/assets/imgs/team-2/avatar-1.png"
-												alt="inoman"
-												
-											/>
+
+										<div className="zoom-img rounded-3">
+											<img className="img-fluid w-10" src="/assets/imgs/team-2/avatar-1.png" alt="Noman"/>
 										</div>
 										<Link href="#" className="card-team rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-3 hover-up">
 											<h6>Noman Raza</h6>
@@ -60,7 +56,7 @@ export default function Team2() {
 									<div className="position-relative d-inline-block z-1">
 
 										<div className="zoom-img rounded-3">
-											<img className="img-fluid w-100" src="/assets/imgs/team-2/avatar-2.png" alt="Noman" style={{ width: '120%', maxWidth: 'none' }} />
+											<img className="img-fluid w-100" src="/assets/imgs/team-2/avatar-2.png" alt="Noman"/>
 										</div>
 										<Link href="#" className="card-team rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-3 hover-up">
 											<h6>Jessica Martinez</h6>
