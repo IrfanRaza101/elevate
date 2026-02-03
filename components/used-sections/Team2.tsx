@@ -5,7 +5,7 @@ export default function Team2() {
 	return (
 		<>
 			<section id="team" className="pt-10 pb-8">
-				<div className="container" >
+				<div className=" m-5 p-5" >
 					<div className="row align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0">
 							<div className="text-start pe-lg-2">

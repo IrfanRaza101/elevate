@@ -273,7 +273,7 @@ nav {
 .container-fluid,
 .container-xl,
 .container-xxl {
-  width: 100% !important;
+  width: 10% !important;
   max-width: 2000px !important;
 }
 

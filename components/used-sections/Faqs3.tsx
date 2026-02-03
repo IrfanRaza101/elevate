@@ -15,7 +15,7 @@ export default function Faqs3() {
         id="faqs"
         className="pt-10 pb-8 position-relative"
       >
-        <div className="container position-relative z-2" >
+        <div className="m-5 p-5 position-relative z-2" >
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 mb-5 mb-lg-0">
               <div className="text-start pe-lg-2">
