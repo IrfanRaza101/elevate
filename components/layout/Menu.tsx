@@ -6,19 +6,19 @@ export default function Menu() {
 			<div className="d-none d-lg-flex">
 				<ul className="navbar-nav mx-auto gap-4 align-items-lg-center">
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/">Home</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/" style={{color: '#000'}}>Home</Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/services">Services</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/services" style={{color: '#000'}}>Services</Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/portfolio">Portfolio</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/portfolio" style={{color: '#000'}}>Portfolio</Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/blog">Blog</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/blog" style={{color: '#000'}}>Blog</Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/about">About</Link>
+						<Link className="nav-link fw-bold d-flex align-items-center nav-text" href="/about" style={{color: '#000'}}>About</Link>
 					</li>
 				</ul>
 			</div>

@@ -8,8 +8,9 @@ export default function Cta8() {
                 /* 1440px Se 4K Tak Ke Liye Specific Responsiveness */
                 @media (min-width: 1440px) {
                     #process .container {
-                        max-width: 90% !important; /* Screen ke sides pe faltu gap khatam karne ke liye */
+                        max-width: 1320px !important; /* Fixed width to prevent over-stretching */
                         width: 100% !important;
+                        margin: 0 auto !important;
                     }
                     
                     /* Heading scaling */
@@ -36,6 +37,8 @@ export default function Cta8() {
                         padding: 3.5rem 2.5rem !important;
                         right: -10% !important;
                         bottom: 15% !important;
+                        width: auto !important; /* Ensure it doesn't stretch */
+                        max-width: 400px !important;
                     }
                     
                     #process .tag-year span.h2 {
@@ -47,6 +50,12 @@ export default function Cta8() {
                 @media (min-width: 2500px) {
                     #process .container {
                         max-width: 2400px !important;
+                    }
+                    
+                    #process .tag-year {
+                        right: -5% !important;
+                        bottom: 20% !important;
+                        padding: 4rem 3rem !important;
                     }
                     
                     #process .ds-4 {

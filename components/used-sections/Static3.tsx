@@ -3,6 +3,25 @@ import CountUp from 'react-countup'
 
 export default function Static3() {
 	return (
+        <>
+            <style jsx>{`
+                /* 4K & Ultra Wide Scaling */
+                @media (min-width: 2000px) {
+                    .section-static-1 .m-5 {
+                        max-width: 1800px !important;
+                        /* margin: 0 auto !important; REMOVED to prevent breaking layout */
+                    }
+                    .section-static-1 h5 {
+                        font-size: 2.5rem !important;
+                    }
+                    .section-static-1 .count {
+                        font-size: 5rem !important;
+                    }
+                    .section-static-1 p {
+                        font-size: 1.5rem !important;
+                    }
+                }
+            `}</style>
 		<section className="w-full section-static-1 position-relative fix z-0 py-8">
 			<div className="m-5 p-5 ">
 				<div className="inner">
@@ -77,5 +96,6 @@ export default function Static3() {
 				</div>
 			</div>
 		</section>
+        </>
 	)
 }

@@ -1,9 +1,50 @@
+'use client'
 
 import Link from "next/link"
 
 export default function Team2() {
 	return (
-		<>
+        <>
+            <style jsx>{`
+                /* 4K & Ultra Wide Scaling */
+                @media (min-width: 2000px) {
+                    #team .m-5 { max-width: 1800px !important; margin: 0 auto !important; }
+                    .ds-4 { font-size: 5rem !important; }
+                    .fs-5 { font-size: 1.8rem !important; }
+                    .fs-6 { font-size: 1.5rem !important; }
+                    .card-team h6 { font-size: 1.8rem !important; }
+                    .card-team { min-height: 180px !important; display: flex; flex-direction: column; justify-content: center; }
+                }
+                
+                /* Large Screens (1440px+) */
+                @media (min-width: 1440px) {
+                    .card-team { min-height: 160px !important; }
+                }
+
+                /* Standardize card heights */
+                .card-team {
+                    min-height: 140px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                /* Team images same size on all screens */
+                .zoom-img {
+                    width: 100%;
+                    max-width: 300px;
+                    aspect-ratio: 3 / 4;
+                    overflow: hidden;
+                    margin: 0 auto;
+                }
+
+                .zoom-img img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
+            `}</style>
 			<section id="team" className="pt-10 pb-8">
 				<div className=" m-5 p-5" >
 					<div className="row align-items-center">
@@ -39,7 +80,7 @@ export default function Team2() {
 									<div className="position-relative d-inline-block z-1">
 
 										<div className="zoom-img rounded-3">
-											<img className="img-fluid w-10" src="/assets/imgs/team-2/avatar-1.png" alt="Noman"/>
+											<img className="img-fluid w-100" src="/assets/imgs/team-2/avatar-1.png" alt="Noman"/>
 										</div>
 										<Link href="#" className="card-team rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-3 hover-up">
 											<h6>Noman Raza</h6>

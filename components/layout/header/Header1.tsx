@@ -38,8 +38,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                 }
 
                 .navbar-stick {
-                    background: rgba(13, 1, 24, 0.95) !important;
+                    background: #ffffff !important;
                     backdrop-filter: blur(10px);
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
                 }
             `}</style>
 
@@ -48,7 +49,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                      style={{ 
                         position: scroll ? "fixed" : "relative", 
                         top: scroll ? "0" : "auto",
-                        padding: '15px 0' 
+                        padding: '15px 0',
+                        backgroundColor: '#ffffff'
                      }}>
                     <div className="container">
                         <Link className="navbar-brand d-flex main-logo align-items-center gap-3" href="/">
@@ -70,7 +72,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             <div onClick={handleSearch} className='cursor-pointer me-4 d-none d-lg-block search-icon-svg'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} viewBox="0 0 24 24" fill="none">
                                     <path d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z" 
-                                          stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                          stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
 

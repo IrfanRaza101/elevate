@@ -53,8 +53,8 @@ export default function Blog5() {
                 }
 
                 .card-team:hover {
-                    border-color: #ff00ff !important;
-                    box-shadow: 0 0 30px rgba(255, 0, 255, 0.2);
+                    border-color: #1E90FF !important;
+                    box-shadow: 0 0 30px rgba(30, 144, 255, 0.2);
                 }
 
                 .card-team .bg-white {

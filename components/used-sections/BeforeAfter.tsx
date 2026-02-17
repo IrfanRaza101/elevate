@@ -64,8 +64,32 @@ export default function BeforeAfter() {
 
 	return (
 		<>
+            <style jsx global>{`
+                /* 4K & Ultra Wide Scaling */
+                @media (min-width: 2000px) {
+                    .section-before-after .container-xl {
+                        max-width: 1800px !important;
+                        margin: 0 auto !important;
+                    }
+                    .section-before-after .ds-4 {
+                        font-size: 5rem !important;
+                    }
+                    .section-before-after p {
+                        font-size: 1.5rem !important;
+                    }
+                    .section-before-after .before-after-container {
+                        height: 800px !important;
+                    }
+                    .section-before-after .fs-7 {
+                         font-size: 1.2rem !important;
+                    }
+                    .section-before-after .fs-8 {
+                         font-size: 1rem !important;
+                    }
+                }
+            `}</style>
 			<section className="section-before-after bg-neutral-0" style={{ paddingTop: '80px', paddingBottom: '40px' }}>
-				<div className="m-5 p-5" >
+				<div className="m-5 p-5 container-xl" >
 					<div className="row">
 						<div className="col-lg-8 col-md-10 mx-auto text-center mb-lg-8">
 							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 px-md-4 py-2" data-aos="zoom-in" data-aos-delay={100}>

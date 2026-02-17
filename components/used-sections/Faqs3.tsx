@@ -11,6 +11,16 @@ export default function Faqs3() {
 
   return (
     <>
+        <style jsx>{`
+            /* 4K & Ultra Wide Scaling */
+            @media (min-width: 2000px) {
+                #faqs .m-5 { max-width: 1800px !important; margin: 0 auto !important; }
+                .ds-4 { font-size: 5rem !important; }
+                .fs-5 { font-size: 1.8rem !important; }
+                .accordion-button { font-size: 1.5rem !important; }
+                .card-body { font-size: 1.25rem !important; }
+            }
+        `}</style>
       <section
         id="faqs"
         className="pt-10 pb-8 position-relative"

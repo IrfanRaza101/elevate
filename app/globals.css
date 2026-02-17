@@ -58,43 +58,7 @@
   /* #1E90FF */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 237, 248, 255;
-    /* #EDF8FF */
-    --background-start-rgb: 0, 52, 89;
-    /* #003459 */
-    --background-end-rgb: 45, 45, 52;
-    /* #2D2D34 */
 
-    --primary-glow: radial-gradient(rgba(82, 113, 255, 0.4), rgba(82, 113, 255, 0));
-    --secondary-glow: linear-gradient(to bottom right,
-        rgba(30, 144, 255, 0),
-        rgba(30, 144, 255, 0),
-        rgba(30, 144, 255, 0.3));
-
-    --tile-start-rgb: 0, 52, 89;
-    /* #003459 */
-    --tile-end-rgb: 45, 45, 52;
-    /* #2D2D34 */
-    --tile-border: conic-gradient(#1E90FF80,
-        #1E90FF40,
-        #1E90FF30,
-        #1E90FF20,
-        #1E90FF10,
-        #1E90FF10,
-        #1E90FF80);
-
-    --callout-rgb: 0, 52, 89;
-    /* #003459 */
-    --callout-border-rgb: 56, 182, 255;
-    /* #38B6FF */
-    --card-rgb: 45, 45, 52;
-    /* #2D2D34 */
-    --card-border-rgb: 30, 144, 255;
-    /* #1E90FF */
-  }
-}
 
 * {
   box-sizing: border-box;
@@ -109,11 +73,15 @@ body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  font-family: 'Poppins', sans-serif;
+} */
+
+body {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -147,133 +115,34 @@ label {
   font-family: 'Poppins', sans-serif !important;
 }
 
-/* Heading colors */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #2D2D34 !important;
+/* Heading colors - REMOVED to restore original design */
+/* h1, h2, h3, h4, h5, h6 { color: #2D2D34 !important; } */
+
+/* Custom Color Utility Classes - REMOVED */
+
+/* Apply color scheme to common elements - REMOVED */
+
+/* Links and interactive elements - REMOVED */
+
+/* Cards and containers - REMOVED to fix Footer and Layout colors */
+/* .card, .container, .section { background-color: var(--light-background); border-color: var(--light-blue); } */
+
+/* Headers and navigation - Keeping only Navbar white as requested */
+.navbar {
+  background-color: #ffffff !important;
 }
 
-/* Custom Color Utility Classes */
-.bg-primary {
-  background-color: var(--primary-color) !important;
-}
+/* Text colors for better contrast - REMOVED */
 
-.bg-secondary {
-  background-color: var(--secondary-color) !important;
-}
+/* Gradients using new colors - REMOVED */
 
-.bg-dark-blue {
-  background-color: var(--dark-blue) !important;
-}
-
-.bg-light-blue {
-  background-color: var(--light-blue) !important;
-}
-
-.bg-dark-gray {
-  background-color: var(--dark-gray) !important;
-}
-
-.bg-light-background {
-  background-color: var(--light-background) !important;
-}
-
-.text-primary {
-  color: var(--primary-color) !important;
-}
-
-.text-secondary {
-  color: var(--secondary-color) !important;
-}
-
-.text-dark-blue {
-  color: var(--dark-blue) !important;
-}
-
-.text-light-blue {
-  color: var(--light-blue) !important;
-}
-
-.text-dark-gray {
-  color: var(--dark-gray) !important;
-}
-
-.text-light {
-  color: var(--light-background) !important;
-}
-
-.border-primary {
-  border-color: var(--primary-color) !important;
-}
-
-.border-secondary {
-  border-color: var(--secondary-color) !important;
-}
-
-.border-light-blue {
-  border-color: var(--light-blue) !important;
-}
-
-/* Apply color scheme to common elements */
-.btn-primary,
-button[class*="primary"] {
-  background-color: var(--primary-color) !important;
-  border-color: var(--primary-color) !important;
-  color: white !important;
-}
-
-.btn-secondary,
-button[class*="secondary"] {
-  background-color: var(--secondary-color) !important;
-  border-color: var(--secondary-color) !important;
-  color: white !important;
-}
-
-/* Links and interactive elements */
-a:hover,
-.link:hover {
-  color: var(--primary-color) !important;
-}
-
-/* Cards and containers */
-.card,
-.container,
-.section {
-  background-color: var(--light-background);
-  border-color: var(--light-blue);
-}
-
-/* Headers and navigation */
-.navbar,
-.header,
-nav {
-  background-color: var(--light-background) !important;
-}
-
-/* Text colors for better contrast */
-.text-muted {
-  color: var(--dark-gray) !important;
-}
-
-/* Gradients using new colors */
-.gradient-primary {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
-}
-
-.gradient-light {
-  background: linear-gradient(135deg, var(--light-background), #ffffff) !important;
-}
 
 /* Custom Container Max-Width for Large Screens */
 .container,
 .container-fluid,
 .container-xl,
 .container-xxl {
-  width: 10% !important;
+  width: 100% !important;
   max-width: 2000px !important;
 }
 
@@ -411,4 +280,15 @@ nav {
 
 .mobile-header-info-wrap .stroke-dark {
   stroke: var(--primary-color) !important;
+}
+
+/* Reduce spacing between sections on large screens */
+@media (min-width: 1440px) {
+    .section-padding, .pt-10, .pb-8 {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .m-5 {
+        margin: 2rem !important;
+    }
 }

@@ -5,6 +5,13 @@ export default function Features5() {
     return (
         <>
             <style jsx>{`
+                /* Large Screen Scaling (1440px+) */
+                @media (min-width: 1440px) {
+                    .container { max-width: 1320px !important; width: 100%; margin: 0 auto; }
+                    .pe-lg-8 { padding-right: 0 !important; text-align: center !important; } /* Center text on large screens */
+                    .col-lg-5 { margin: 0 auto !important; } /* Center column */
+                }
+
                 /* 4K & Ultra-Wide Scaling */
                 @media (min-width: 2000px) {
                     .container { max-width: 1800px !important; width: 100%; margin: 0 auto; }
@@ -12,6 +19,8 @@ export default function Features5() {
                     .ds-5 { font-size: 4.5rem !important; }
                     .fs-5 { font-size: 1.8rem !important; }
                     .feature-item { font-size: 1.4rem !important; }
+                    .pe-lg-8 { padding-right: 0 !important; text-align: center !important; } /* Center text on large screens */
+                    .col-lg-5 { margin: 0 auto !important; } /* Center column */
                 }
 
                 /* Section Layout */

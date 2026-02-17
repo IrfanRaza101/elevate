@@ -8,6 +8,7 @@ import "/public/assets/fonts/bootstrap-icons/bootstrap-icons.min.css"
 import "/public/assets/fonts/boxicons/boxicons.min.css"
 import "/public/assets/fonts/satoshi/satoshi.css"
 import "/public/assets/css/main.css"
+import "./globals.css"
 
 import "@/node_modules/react-modal-video/css/modal-video.css"
 
