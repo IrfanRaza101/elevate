@@ -14,11 +14,11 @@ export default function Cta3() {
 										Ultimate Experience <br />
 										in Financial Services
 									</h3>
-									<Link href="/page-contact-1" className="d-flex align-items-center mt-8 mb-9">
+									<Link href="https://wa.me/923172651450" className="d-flex align-items-center mt-8 mb-9">
 										<img src="/assets/imgs/cta-3/icon-contact.svg" alt="infinia" />
 										<span className="ms-3">
 											<span className="text-white mb-0 fs-4">Contact Us</span>
-											<span className="text-white fs-4 d-block">+01 (24) 568 900</span>
+											<span className="text-white fs-4 d-block">+92 317 2651450</span>
 										</span>
 									</Link>
 									<Link href="#" className="fw-bold btn text-start bg-white-keep d-flex align-items-center justify-content-between text-primary hover-up w-100">

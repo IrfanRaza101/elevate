@@ -41,11 +41,11 @@ export default function Features9() {
 								<div className="position-relative d-inline-block z-2">
 									<img className="rounded-4 border border-3 border-white" src="/assets/imgs/features-9/img-1.png" alt="infinia" />
 									<div className="position-absolute bottom-0 start-0 end-0 mb-3 mx-3 backdrop-filter rounded-3 text-start p-3">
-										<Link href="/page-contact-1" className="d-flex align-items-center">
+										<Link href="https://wa.me/923172651450" className="d-flex align-items-center">
 											<img src="/assets/imgs/cta-3/icon-contact.svg" alt="infinia" />
 											<span className="ms-3">
 												<span className="text-white text-uppercase mb-0 fs-7">Contact Us</span>
-												<span className="fs-4 d-block">+01 (24) 568 900</span>
+												<span className="fs-4 d-block">+92 317 2651450</span>
 											</span>
 										</Link>
 									</div>

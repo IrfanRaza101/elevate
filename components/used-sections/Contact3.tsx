@@ -208,7 +208,7 @@ export default function Contact3() {
 												</div>
 												<div>
 													<h6 className="mb-1">Call Us</h6>
-													<Link href="tel:+1234567890" className="text-500 text-decoration-none">+1 (234) 567-890</Link>
+													<Link href="https://wa.me/923172651450" className="text-500 text-decoration-none">+92 317 2651450</Link>
 												</div>
 											</div>
 										</div>

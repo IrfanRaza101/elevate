@@ -42,7 +42,7 @@ export default function Cta8() {
 								<div className="position-relative z-1 d-inline-block mb-lg-0 mb-8">
 									<img className="rounded-4 position-relative z-1" src="/assets/imgs/cta-5/img-1.png" alt="infinia" />
 									<div className="alltuchtopdown tag-year position-absolute backdrop-filter bg-primary rounded-4 px-4 py-5 text-center z-1">
-										<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap"><span className="odometer" /> <CountUp end={25} enableScrollSpy={true} />+</span>
+										<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap"><span className="odometer" /> <CountUp end={7} enableScrollSpy={true} />+</span>
 										<p className="text-white text-nowrap mb-0">Years in Presentation Design</p>
 									</div>
 									<div className="position-absolute tag-dots z-0 pt-5">

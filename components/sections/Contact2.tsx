@@ -115,7 +115,7 @@ export default function Contact2() {
 										<p className="text-500">Reach out for immediate assistance</p>
 										<div className="d-flex mb-2">
 											<img src="/assets/imgs/contact-2/icon-5.svg" alt="infinia" />
-											<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">+01 (24) 568 900</Link>
+											<Link className="ms-2 text-decoration-underline text-900 fs-7" href="https://wa.me/923172651450">+92 317 2651450</Link>
 										</div>
 									</div>
 								</div>

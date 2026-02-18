@@ -14,11 +14,11 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSear
 						<div className="container py-2">
 							<div className="d-flex flex-column flex-lg-row justify-content-between align-items-center">
 								<div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-									<a href="tel:123456789" className="pe-4">
+									<a href="https://wa.me/923172651450" className="pe-4">
 										<svg xmlns="http://www.w3.org/2000/svg" width={20} height={21} viewBox="0 0 20 21" fill="none">
 											<path d="M7.41064 4.45833H5.05674C4.45006 4.45833 3.95825 4.95014 3.95825 5.55681C3.95825 11.6236 8.87634 16.5417 14.9431 16.5417C15.5498 16.5417 16.0416 16.0498 16.0416 15.4432V13.0892L13.4523 11.3631L12.1097 12.7057C11.8765 12.9389 11.528 13.0114 11.235 12.8601C10.7381 12.6033 9.93167 12.121 9.13684 11.3631C8.32299 10.5871 7.84615 9.75091 7.60683 9.245C7.4727 8.96141 7.55035 8.63409 7.77216 8.41228L9.13684 7.04761L7.41064 4.45833Z" stroke="#6B7280" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 										</svg>
-										<span className="text-900 fs-7">+01 (24) 568 900</span>
+										<span className="text-900 fs-7">+92 317 2651450</span>
 									</a>
 									<div className="location d-flex align-items-center">
 										<svg xmlns="http://www.w3.org/2000/svg" width={20} height={21} viewBox="0 0 20 21" fill="none">
