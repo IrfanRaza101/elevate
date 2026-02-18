@@ -36,14 +36,14 @@ export default function Newsletter1() {
 							<div className="px-lg-5 text-lg-start text-center">
 								<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
 									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Stay Updated</span>
+									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Presentation Tips</span>
 								</div>
-								<h4 className="mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={100}>Subscribe to our Newsletter!</h4>
-								<span className="fs-6 fw-medium" data-aos="fade-zoom-in" data-aos-delay={200}>Join 52,000+ people on our newsletter</span>
+								<h4 className="mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={100}>Get our presentation newsletter</h4>
+								<span className="fs-6 fw-medium" data-aos="fade-zoom-in" data-aos-delay={200}>Monthly tips on story, design, and data clarity</span>
 								<div className="input-group mb-3 mt-4 position-relative">
-									<input type="text" className="ps-5 py-3 form-control bg-neutral-100 rounded-start-pill border-2 border-end-0 border-white" name="name" placeholder="Enter your mail .." />
+									<input type="text" className="ps-5 py-3 form-control bg-neutral-100 rounded-start-pill border-2 border-end-0 border-white" name="name" placeholder="Enter your email" />
 									<div className="bg-neutral-100 border-2 border border-start-0 border-white rounded-end-pill">
-										<button className="btn btn-gradient px-3 py-3 m-3 fs-7 fw-bold border-0 rounded-pill" type="button" data-aos="fade-zoom-in" data-aos-delay={100}>Join Now</button>
+										<button className="btn btn-gradient px-3 py-3 m-3 fs-7 fw-bold border-0 rounded-pill" type="button" data-aos="fade-zoom-in" data-aos-delay={100}>Subscribe</button>
 									</div>
 								</div>
 							</div>

@@ -13,7 +13,7 @@ export default function Features3() {
 								<div className="position-relative d-inline-block mb-lg-0 mb-8">
 									<img className="rounded-4" src="/assets/imgs/features-3/img-1.png" alt="infinia" data-aos="fade-zoom-in" data-aos-delay={200} />
 									<div className="position-absolute bottom-0 start-0 translate-middle-md-x mb-md-8 backdrop-filter rounded-3 p-md-4 p-3 text-center">
-										<h6>Rate For Us</h6>
+										<h6>Rated by Teams</h6>
 										<div className="d-flex align-items-center justify-content-center py-4">
 											<img src="/assets/imgs/features-3/avatar-1.png" alt="infinia" />
 											<img className="avt-hero z-1" src="/assets/imgs/features-3/avatar-2.png" alt="infinia" />
@@ -37,42 +37,42 @@ export default function Features3() {
 											</svg>
 										</div>
 										<p className="pt-2">
-											Loved by over 4k <br />
-											happy clients
+											Trusted by growing <br />
+											presentation teams
 										</p>
 									</div>
 								</div>
 							</div>
 							<div className="col-lg-6">
 								<div className="ps-lg-5">
-									<h6 data-aos="fade-zoom-in" data-aos-delay={100}>Company's vision</h6>
-									<h3 className="ds-3 mt-2 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Powerful agency for corporate business.</h3>
-									<p className="mb-5" data-aos="fade-zoom-in" data-aos-delay={300}>Provide your team with top-tier group mentoring programs and exceptional professional benefits.</p>
+									<h6 data-aos="fade-zoom-in" data-aos-delay={100}>Our Vision</h6>
+									<h3 className="ds-3 mt-2 mb-5" data-aos="fade-zoom-in" data-aos-delay={200}>Presentation design that makes decisions easy.</h3>
+									<p className="mb-5" data-aos="fade-zoom-in" data-aos-delay={300}>We turn complex ideas into clear slides, aligned to your brand, message, and audience.</p>
 									<div className="d-flex align-items-center pb-7 border-bottom">
 										<Link href="#" className="btn btn-gradient rounded-pill px-4 py-3" style={{fontSize: '0.9rem'}} data-aos="fade-zoom-in" data-aos-delay={0}>
-											Get Free Quote
+											Request a Quote
 											<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 												<path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 												<path className="stroke-white" d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 											</svg>
 										</Link>
-										<Link href="#" className="ms-5 text-decoration-underline fw-bold" data-aos="fade-zoom-in" data-aos-delay={300}>How We Work</Link>
+										<Link href="#" className="ms-5 text-decoration-underline fw-bold" data-aos="fade-zoom-in" data-aos-delay={300}>Our Process</Link>
 									</div>
 									<div className="row">
 										<div className="col-12 col-md-6 d-flex align-items-center justify-content-center border-end mt-5">
 											<h2 className="odometer"><CountUp end={99} enableScrollSpy={true} /></h2>
 											<span className="fs-4 fw-medium align-self-start">%</span>
 											<p className="ms-3" data-aos="fade-zoom-in" data-aos-delay={200}>
-												Genuine repeated <br />
-												happy customers.
+												Repeat clients <br />
+												across teams.
 											</p>
 										</div>
 										<div className="col-12 col-md-6 d-flex align-items-center justify-content-center mt-5">
 											<h2 className="odometer"><CountUp end={98} enableScrollSpy={true} /></h2>
 											<span className="fs-4 fw-medium align-self-start">%</span>
 											<p className="ms-3" data-aos="fade-zoom-in" data-aos-delay={300}>
-												Trusted by <br />
-												companies
+												Decks built for <br />
+												growth teams
 											</p>
 										</div>
 									</div>

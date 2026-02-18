@@ -10,14 +10,14 @@ export default function Static3() {
 						<div className="row align-items-center justify-content-between">
 							<div className="col-lg-auto col-md-12 text-center text-lg-start mb-5 mb-lg-0">
 								<h4 className="mb-0">
-									See why we are <br /> trusted the world over
+									See why teams <br /> trust our decks
 								</h4>
 							</div>
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="h1 count fw-black text-primary my-0"><span className="odometer"><CountUp end={469} enableScrollSpy={true} /></span><span>k</span></span>
-										<p>New accounts</p>
+										<p>Slides delivered</p>
 									</div>
 								</div>
 							</div>
@@ -25,7 +25,7 @@ export default function Static3() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={92} enableScrollSpy={true} /></span></span>
-										<p>Finished projects</p>
+										<p>Decks completed</p>
 									</div>
 								</div>
 							</div>
@@ -33,7 +33,7 @@ export default function Static3() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={756} enableScrollSpy={true} /></span></span>
-										<p>Skilled experts</p>
+										<p>Design specialists</p>
 									</div>
 								</div>
 							</div>
@@ -41,7 +41,7 @@ export default function Static3() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={25} enableScrollSpy={true} /></span><span>k</span></span>
-										<p>Media posts</p>
+										<p>Teams supported</p>
 									</div>
 								</div>
 							</div>

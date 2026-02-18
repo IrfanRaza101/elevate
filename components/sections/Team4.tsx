@@ -13,11 +13,11 @@ export default function Team4() {
 							<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">OUR TEAM MEMBERS</span>
 						</div>
-						<h3 className="ds-3 my-3">Meet Our Team</h3>
+						<h3 className="ds-3 my-3">Meet Our Presentation Team</h3>
 						<p className="fs-5">
-							Meet the talented and passionate team members who drive our
+							A focused group of strategists, designers, and storytellers
 							<br />
-							company forward every day.
+							who turn ideas into persuasive decks.
 						</p>
 					</div>
 					<div className="row mt-8 mb-lg-8 m-0">
@@ -31,7 +31,7 @@ export default function Team4() {
 									<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-6 shadow-1">
 										<h6>Esther Howard</h6>
 										<span className="d-flex justify-content-between">
-											<span className="fs-6 text-600 me-auto">Co-Founder</span>
+											<span className="fs-6 text-600 me-auto">Creative Director</span>
 											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 												<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#1E90FF" />
 											</svg>
@@ -49,7 +49,7 @@ export default function Team4() {
 									<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-6 shadow-1">
 										<h6>Ashley Hardy</h6>
 										<span className="d-flex justify-content-between">
-											<span className="fs-6 text-600 me-auto">Chief Finance Officer</span>
+											<span className="fs-6 text-600 me-auto">Presentation Strategist</span>
 											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 												<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#1E90FF" />
 											</svg>
@@ -67,7 +67,7 @@ export default function Team4() {
 									<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-6 shadow-1">
 										<h6>Clark Roberts</h6>
 										<span className="d-flex justify-content-between">
-											<span className="fs-6 text-600 me-auto">VP Sales and Marketing </span>
+											<span className="fs-6 text-600 me-auto">Story & Structure Lead</span>
 											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 												<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#1E90FF" />
 											</svg>
@@ -88,7 +88,7 @@ export default function Team4() {
 									<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-4 shadow-1">
 										<h6>Dennis Norris</h6>
 										<span className="d-flex justify-content-between">
-											<span className="fs-6 text-600 me-auto">Chief Marketing Officer</span>
+											<span className="fs-6 text-600 me-auto">Data Visualization Lead</span>
 											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 												<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#1E90FF" />
 											</svg>
@@ -106,7 +106,7 @@ export default function Team4() {
 									<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-4 shadow-1">
 										<h6>Gina Kennedy</h6>
 										<span className="d-flex justify-content-between">
-											<span className="fs-6 text-600 me-auto">Administrator </span>
+											<span className="fs-6 text-600 me-auto">Brand Systems Lead</span>
 											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 												<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#1E90FF" />
 											</svg>
@@ -124,7 +124,7 @@ export default function Team4() {
 									<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-4 shadow-1">
 										<h6>Fernando Torres</h6>
 										<span className="d-flex justify-content-between">
-											<span className="fs-6 text-600 me-auto">Tax Consultant</span>
+											<span className="fs-6 text-600 me-auto">Motion Designer</span>
 											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 												<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#1E90FF" />
 											</svg>
@@ -142,7 +142,7 @@ export default function Team4() {
 									<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-4 shadow-1">
 										<h6>Esther Howard</h6>
 										<span className="d-flex justify-content-between">
-											<span className="fs-6 text-600 me-auto">Amelia Earhart</span>
+											<span className="fs-6 text-600 me-auto">Client Success Lead</span>
 											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 												<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#1E90FF" />
 											</svg>

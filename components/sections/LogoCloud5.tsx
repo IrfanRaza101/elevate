@@ -10,12 +10,12 @@ export default function LogoCloud5() {
 					<div className="container">
 						<div className="row align-items-center">
 							<div className="col-lg-3 pb-lg-0 pb-8">
-								<h4 className="text-nowrap">Loved By Developers <br />
-									Trusted By Enterprises
+								<h4 className="text-nowrap">Trusted By Teams <br />
+									Who Present to Win
 								</h4>
-								<p className="pt-2 pb-4">We helped these brands turn online assessments into success stories. </p>
+								<p className="pt-2 pb-4">We help leaders and growth teams communicate clearly and close decisions faster.</p>
 								<Link href="#" className="shadow-1 btn text-start bg-white d-inline-block text-primary hover-up">
-									View our partners
+									View client work
 									<svg className="ms-3" xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="none">
 										<path className="fill-dark" d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="black" />
 									</svg>

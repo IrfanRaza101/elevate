@@ -48,10 +48,10 @@ export default function Project2() {
 						<div className="col-lg-6">
 							<div className="d-flex align-items-center justify-text-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1">
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Recent work</span>
+								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Case Studies</span>
 							</div>
-							<h3 className="ds-3 mt-3 mb-3">Our feared projects</h3>
-							<p className="fs-5 fw-medium">⚡Don't miss any contact. Stay connected.</p>
+							<h3 className="ds-3 mt-3 mb-3">Presentation Case Studies</h3>
+							<p className="fs-5 fw-medium">Decks that helped teams win decisions.</p>
 						</div>
 						<div className="col-lg-2 col-md-3 col-6 ms-auto align-self-end mb-lg-7 mt-lg-0 mt-4">
 							<div className="position-relative z-0">
@@ -78,11 +78,11 @@ export default function Project2() {
 												<img className="img-fluid w-100" src="/assets/imgs/project-2/img-1.png" alt="infinia" />
 											</div>
 											<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
-												<p className="fs-7 text-primary mb-1">InnovateTech Inc.</p>
-												<h6>Strategic Solutions Initiative</h6>
-												<p className="text-900">Streamlining operations and growth strategies for market enhancement.</p>
+												<p className="fs-7 text-primary mb-1">NovaPay</p>
+												<h6>Series A Pitch Deck</h6>
+												<p className="text-900">Clarified narrative and traction to secure investor follow-ups.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Software Development</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Pitch Deck</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -93,11 +93,11 @@ export default function Project2() {
 												<img className="img-fluid w-100" src="/assets/imgs/project-2/img-2.png" alt="infinia" />
 											</div>
 											<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
-												<p className="fs-7 text-primary mb-1">Pioneer Enterprises</p>
-												<h6>Innovate Consulting Challenge</h6>
-												<p className="text-900">Leveraging consulting practices to solve complex problems.</p>
+												<p className="fs-7 text-primary mb-1">Atlas SaaS</p>
+												<h6>Global Sales Enablement</h6>
+												<p className="text-900">Unified sales story and visuals across regions and teams.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Consulting</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Sales Deck</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -108,11 +108,11 @@ export default function Project2() {
 												<img className="img-fluid w-100" src="/assets/imgs/project-2/img-3.png" alt="infinia" />
 											</div>
 											<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
-												<p className="fs-7 text-primary mb-1">Summit Corp</p>
-												<h6>Growth Catalyst Program</h6>
-												<p className="text-900">Accelerating business growth through strategic planning.</p>
+												<p className="fs-7 text-primary mb-1">Northbridge Holdings</p>
+												<h6>Quarterly Board Update</h6>
+												<p className="text-900">Executive summary and KPIs made decision-ready.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Financial Advisory</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Board Deck</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -123,11 +123,11 @@ export default function Project2() {
 												<img className="img-fluid w-100" src="/assets/imgs/project-2/img-1.png" alt="infinia" />
 											</div>
 											<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
-												<p className="fs-7 text-primary mb-1">InnovateTech Inc.</p>
-												<h6>Strategic Solutions Initiative</h6>
-												<p className="text-900">Streamlining operations and growth strategies for market enhancement.</p>
+												<p className="fs-7 text-primary mb-1">NovaPay</p>
+												<h6>Series A Pitch Deck</h6>
+												<p className="text-900">Clarified narrative and traction to secure investor follow-ups.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Software Development</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Pitch Deck</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -138,11 +138,11 @@ export default function Project2() {
 												<img className="img-fluid w-100" src="/assets/imgs/project-2/img-2.png" alt="infinia" />
 											</div>
 											<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
-												<p className="fs-7 text-primary mb-1">Pioneer Enterprises</p>
-												<h6>Innovate Consulting Challenge</h6>
-												<p className="text-900">Leveraging consulting practices to solve complex problems.</p>
+												<p className="fs-7 text-primary mb-1">Atlas SaaS</p>
+												<h6>Global Sales Enablement</h6>
+												<p className="text-900">Unified sales story and visuals across regions and teams.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Consulting</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Sales Deck</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -153,11 +153,11 @@ export default function Project2() {
 												<img className="img-fluid w-100" src="/assets/imgs/project-2/img-3.png" alt="infinia" />
 											</div>
 											<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
-												<p className="fs-7 text-primary mb-1">Summit Corp</p>
-												<h6>Growth Catalyst Program</h6>
-												<p className="text-900">Accelerating business growth through strategic planning.</p>
+												<p className="fs-7 text-primary mb-1">Northbridge Holdings</p>
+												<h6>Quarterly Board Update</h6>
+												<p className="text-900">Executive summary and KPIs made decision-ready.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Financial Advisory</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Board Deck</Link>
 										</div>
 									</div>
 								</SwiperSlide>

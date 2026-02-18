@@ -9,11 +9,11 @@ export default function Contact3() {
 						<div className="col-lg-8 mx-auto text-center">
 							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2">
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Get In Touch</span>
+							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Start a Deck</span>
 							</div>
-							<h3 className="ds-3 my-3">Let's Start a Conversation</h3>
+							<h3 className="ds-3 my-3">Let’s build your next presentation</h3>
 							<p className="fs-5 mb-0">
-								Ready to take your business to the next level? Contact us today and let's discuss how we can help you achieve your goals.
+								Tell us what you need to present and we’ll help you shape the story, design the slides, and deliver clarity.
 							</p>
 						</div>
 					</div>
@@ -23,7 +23,7 @@ export default function Contact3() {
 								<div className="col-lg-8">
 									<div className="card border-0 shadow-sm">
 										<div className="card-body p-6">
-											<h4 className="mb-4">Send us a message</h4>
+											<h4 className="mb-4">Tell us about your presentation</h4>
 											<form action="#">
 												<div className="row">
 													<div className="col-md-6 mb-4">
@@ -46,19 +46,19 @@ export default function Contact3() {
 														<label className="form-label fw-medium text-dark">Subject</label>
 														<select className="form-select">
 															<option>Select a subject</option>
-															<option>General Inquiry</option>
-															<option>Project Discussion</option>
-															<option>Support Request</option>
-															<option>Partnership</option>
+															<option>Pitch Deck</option>
+															<option>Sales Presentation</option>
+															<option>Company Profile</option>
+															<option>Board or Investor Update</option>
 														</select>
 													</div>
 													<div className="col-12 mb-4">
 														<label className="form-label fw-medium text-dark">Message</label>
-														<textarea className="form-control" rows={5} placeholder="Tell us about your project or inquiry..."></textarea>
+															<textarea className="form-control" rows={5} placeholder="Share your goals, audience, and timeline..."></textarea>
 													</div>
 													<div className="col-12">
 														<button type="submit" className="btn btn-primary btn-lg">
-															Send Message
+															Send Request
 															<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 24 24" fill="none">
 																<path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"/>
 															</svg>
@@ -80,8 +80,8 @@ export default function Contact3() {
 													</svg>
 												</div>
 												<div>
-													<h6 className="mb-1">Visit Our Office</h6>
-													<p className="text-500 mb-0">123 Business Street<br />New York, NY 10001</p>
+													<h6 className="mb-1">Studio</h6>
+													<p className="text-500 mb-0">Design District<br />New York, NY</p>
 												</div>
 											</div>
 										</div>
