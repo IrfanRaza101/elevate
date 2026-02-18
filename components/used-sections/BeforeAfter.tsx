@@ -89,7 +89,7 @@ export default function BeforeAfter() {
                 }
             `}</style>
 			<section className="section-before-after bg-neutral-0" style={{ paddingTop: '80px', paddingBottom: '40px' }}>
-				<div className="m-5 p-5 container-xl" >
+				<div className="container-xl px-4 px-md-5 py-5">
 					<div className="row">
 						<div className="col-lg-8 col-md-10 mx-auto text-center mb-lg-8">
 							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 px-md-4 py-2" data-aos="zoom-in" data-aos-delay={100}>

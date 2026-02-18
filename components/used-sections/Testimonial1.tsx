@@ -49,7 +49,7 @@ export default function Testimonial1() {
             `}</style>
 
             <section id="testimonials" className="section-testimonial-1 pb-120 position-relative">
-                <div className="m-5 p-5 position-relative z-1">
+                <div className="container py-5 position-relative z-1">
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="pe-8 mt-7">

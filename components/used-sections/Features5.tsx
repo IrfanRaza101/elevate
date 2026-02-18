@@ -79,8 +79,8 @@ export default function Features5() {
                 }
             `}</style>
 
-            <section id="features" className="section-feature-5 m-5 rounded">
-                <div className=" m-5 p-5 ">
+            <section id="features" className="section-feature-5">
+                <div className="container px-4 px-md-5 py-5 rounded">
 
                     {/* First Row */}
                     <div className="row align-items-center text-center-mobile">
@@ -133,7 +133,7 @@ export default function Features5() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-lg-6 offset-lg-1 order-1 order-lg-2">
+                        <div className="col-lg-6 order-1 order-lg-2">
                             <div className="photo-description position-relative d-inline-block">
                                 <img src="/assets/imgs/features-5/img-2.png" alt="Feature Image 2" />
                                 <div className="position-absolute top-50 start-50 translate-middle z-0 w-100 h-100">

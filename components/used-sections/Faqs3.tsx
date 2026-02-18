@@ -14,7 +14,7 @@ export default function Faqs3() {
         <style jsx>{`
             /* 4K & Ultra Wide Scaling */
             @media (min-width: 2000px) {
-                #faqs .m-5 { max-width: 1800px !important; margin: 0 auto !important; }
+                #faqs .container { max-width: 1800px !important; margin: 0 auto !important; }
                 .ds-4 { font-size: 5rem !important; }
                 .fs-5 { font-size: 1.8rem !important; }
                 .accordion-button { font-size: 1.5rem !important; }
@@ -25,7 +25,7 @@ export default function Faqs3() {
         id="faqs"
         className="pt-10 pb-8 position-relative"
       >
-        <div className="m-5 p-5 position-relative z-2" >
+        <div className="container py-5 position-relative z-2" >
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 mb-5 mb-lg-0">
               <div className="text-start pe-lg-2">

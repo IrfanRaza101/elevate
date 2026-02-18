@@ -5,27 +5,25 @@ export default function Static3() {
 	return (
         <>
             <style jsx>{`
-                /* 4K & Ultra Wide Scaling */
-                @media (min-width: 2000px) {
-                    .section-static-1 .m-5 {
-                        max-width: 1800px !important;
-                        /* margin: 0 auto !important; REMOVED to prevent breaking layout */
+                @media (min-width: 1440px) {
+                    .section-static-1 .row-stats {
+                        flex-wrap: nowrap !important;
                     }
                     .section-static-1 h5 {
-                        font-size: 2.5rem !important;
+                        font-size: 2.2rem !important;
                     }
                     .section-static-1 .count {
-                        font-size: 5rem !important;
+                        font-size: 3rem !important;
                     }
-                    .section-static-1 p {
-                        font-size: 1.5rem !important;
-                    }
+                }
+                .section-static-1 .bouncing-blobs-container {
+                    max-width: 100vw !important;
                 }
             `}</style>
 		<section className="w-full section-static-1 position-relative fix z-0 py-8">
-			<div className="m-5 p-5 ">
+			<div className="container py-5">
 				<div className="inner">
-					<div className="row align-items-center justify-content-center justify-content-lg-between gy-4">
+					<div className="row row-stats align-items-center justify-content-center justify-content-lg-between gy-4">
 
 						{/* Heading */}
 						<div className="col-12 col-lg-auto text-center text-lg-start mb-4 mb-lg-0">
@@ -92,7 +90,6 @@ export default function Static3() {
 				<div className="bouncing-blobs">
 					<div className="bouncing-blob bouncing-blob--green" />
 					<div className="bouncing-blob bouncing-blob--primary" />
-					<div className="bouncing-blob bouncing-blob--infor bouncing-blob--infor-2" />
 				</div>
 			</div>
 		</section>

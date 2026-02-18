@@ -32,8 +32,8 @@ export default function LogoCloud1() {
                 }
             `}</style>
 
-            <div className="section-logo-cloud   mt-8 mt-lg-0 border-top border-bottom">
-                <div className=" m-5 p-5">
+            <div className="section-logo-cloud mt-8 mt-lg-0 border-top border-bottom">
+                <div className="container py-5">
                     <div className="row mask-image">
                         <div className="carouselTicker carouselTicker-right my-7 position-relative z-1">
                             <ul className="carouselTicker__list">

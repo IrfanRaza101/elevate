@@ -65,7 +65,7 @@ export default function HowItWork2() {
                 alignItems: 'center',
                 justifyContent: 'center',
             }}>
-                <div className=" m-5 p-5 position-relative z-1">
+                <div className="container py-5 position-relative z-1">
                     <div className="text-center mb-5 mb-lg-8">
                         <div className="d-flex align-items-center position-relative z-2 justify-content-center d-inline-flex rounded-pill px-2 py-1" style={{ backgroundColor: '#EDF8FF' }}>
                             <span className="fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#1E90FF' }}>New</span>

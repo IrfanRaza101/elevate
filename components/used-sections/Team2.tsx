@@ -8,7 +8,7 @@ export default function Team2() {
             <style jsx>{`
                 /* 4K & Ultra Wide Scaling */
                 @media (min-width: 2000px) {
-                    #team .m-5 { max-width: 1800px !important; margin: 0 auto !important; }
+                    #team .container { max-width: 1800px !important; margin: 0 auto !important; }
                     .ds-4 { font-size: 5rem !important; }
                     .fs-5 { font-size: 1.8rem !important; }
                     .fs-6 { font-size: 1.5rem !important; }
@@ -46,7 +46,7 @@ export default function Team2() {
                 }
             `}</style>
 			<section id="team" className="pt-10 pb-8">
-				<div className=" m-5 p-5" >
+				<div className="container py-5" >
 					<div className="row align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0">
 							<div className="text-start pe-lg-2">

@@ -75,7 +75,7 @@ export default function Project1() {
             `}</style>
 
             <section id="projects" className="section-project-2 pt-10 pb-8">
-                <div className=" m-5 p-5">
+                <div className="container py-5">
                     <div className="row mb-5 mb-lg-8 align-items-end">
                         <div className="col-lg-7 col-md-12 mb-4 mb-lg-0">
                             <div className="pe-2">

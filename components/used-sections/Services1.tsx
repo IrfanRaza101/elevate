@@ -42,9 +42,16 @@ export default function Services1() {
                     .ds-4 { margin-bottom: 20px; }
                 }
 
+                /* Large Screen Width (Desktop 1440px+) */
+                @media (min-width: 1440px) {
+                    #services .container {
+                        max-width: 1600px !important;
+                    }
+                }
+
                 /* 4K Optimization */
                 @media (min-width: 2500px) {
-                    .container { max-width: 2000px !important; }
+                    #services .container { max-width: 2000px !important; }
                     .ds-4 { font-size: 5rem !important; }
                     .card-service p { font-size: 1.25rem !important; }
                 }
@@ -63,7 +70,7 @@ export default function Services1() {
             `}</style>
 
             <section id="services" className="section-services">
-                <div className="m-5 p-5 position-relative z-1">
+                <div className="container py-5 position-relative z-1">
                     {/* Header Section */}
                     <div className="text-center mb-5">
                         <div className="d-flex align-items-center justify-content-center d-inline-flex rounded-pill px-3 py-1 mb-3" style={{backgroundColor: '#EDF8FF'}} data-aos="zoom-in">
